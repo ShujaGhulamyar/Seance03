@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MaisonReve.Database.Models;
 
 
 
@@ -39,7 +40,8 @@ namespace MaisonReve.Web
 
                     }); 
 
-            services.AddSingleton<BuildingRepo>();
+             services.AddSingleton<IRentTermConverter, RentTermConverter>();
+             services.AddScoped<IBuildingRepo, BuildingRepo>();
 
         }
 
