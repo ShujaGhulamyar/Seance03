@@ -46,6 +46,9 @@ namespace MaisonReve.Database.Migrations
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Published")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("Buildings");
@@ -63,7 +66,8 @@ Canada
                             Name = "Le Super Adrian",
                             OwnerFirstName = "Krissy",
                             OwnerLastName = "Reidcoln",
-                            PhoneNumber = "214-764-3816"
+                            PhoneNumber = "214-764-3816",
+                            Published = false
                         },
                         new
                         {
@@ -77,7 +81,8 @@ Canada
                             Name = "Le Super Krissy",
                             OwnerFirstName = "Pat",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "742-813-7421"
+                            PhoneNumber = "742-813-7421",
+                            Published = false
                         },
                         new
                         {
@@ -91,7 +96,8 @@ Canada
                             Name = "Le Super Pat",
                             OwnerFirstName = "Palmira",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "367-252-3834"
+                            PhoneNumber = "367-252-3834",
+                            Published = false
                         },
                         new
                         {
@@ -105,7 +111,8 @@ Canada
                             Name = "Le Super Palmira",
                             OwnerFirstName = "Ralph",
                             OwnerLastName = "Vadtälje",
-                            PhoneNumber = "785-411-6446"
+                            PhoneNumber = "785-411-6446",
+                            Published = false
                         },
                         new
                         {
@@ -119,7 +126,8 @@ Canada
                             Name = "Le Super Ralph",
                             OwnerFirstName = "Arielle",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "333-648-2851"
+                            PhoneNumber = "333-648-2851",
+                            Published = false
                         },
                         new
                         {
@@ -133,7 +141,8 @@ Canada
                             Name = "Le Super Arielle",
                             OwnerFirstName = "Troy",
                             OwnerLastName = "Lystrup",
-                            PhoneNumber = "758-787-5464"
+                            PhoneNumber = "758-787-5464",
+                            Published = false
                         },
                         new
                         {
@@ -147,7 +156,8 @@ Canada
                             Name = "Le Super Troy",
                             OwnerFirstName = "Marcell",
                             OwnerLastName = "Ixtatla",
-                            PhoneNumber = "476-136-1877"
+                            PhoneNumber = "476-136-1877",
+                            Published = false
                         },
                         new
                         {
@@ -161,7 +171,8 @@ Canada
                             Name = "Le Super Marcell",
                             OwnerFirstName = "Vi",
                             OwnerLastName = "Haapsa",
-                            PhoneNumber = "823-375-4482"
+                            PhoneNumber = "823-375-4482",
+                            Published = false
                         },
                         new
                         {
@@ -175,7 +186,8 @@ Canada
                             Name = "Le Super Vi",
                             OwnerFirstName = "Sherise",
                             OwnerLastName = "Guasabaro",
-                            PhoneNumber = "441-434-8815"
+                            PhoneNumber = "441-434-8815",
+                            Published = false
                         },
                         new
                         {
@@ -189,7 +201,8 @@ Canada
                             Name = "Le Super Sherise",
                             OwnerFirstName = "Angelina",
                             OwnerLastName = "Kalatee",
-                            PhoneNumber = "877-663-4428"
+                            PhoneNumber = "877-663-4428",
+                            Published = false
                         },
                         new
                         {
@@ -203,7 +216,8 @@ Canada
                             Name = "Le Super Angelina",
                             OwnerFirstName = "Liliana",
                             OwnerLastName = "Boswood",
-                            PhoneNumber = "414-822-7833"
+                            PhoneNumber = "414-822-7833",
+                            Published = false
                         },
                         new
                         {
@@ -217,7 +231,8 @@ Canada
                             Name = "Le Super Liliana",
                             OwnerFirstName = "Sheryl",
                             OwnerLastName = "Hókrókur",
-                            PhoneNumber = "832-151-3446"
+                            PhoneNumber = "832-151-3446",
+                            Published = false
                         },
                         new
                         {
@@ -231,7 +246,8 @@ Canada
                             Name = "Le Super Sheryl",
                             OwnerFirstName = "Mariella",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "567-318-6851"
+                            PhoneNumber = "567-318-6851",
+                            Published = false
                         },
                         new
                         {
@@ -245,7 +261,8 @@ Canada
                             Name = "Le Super Mariella",
                             OwnerFirstName = "Berniece",
                             OwnerLastName = "Ketne",
-                            PhoneNumber = "185-557-2464"
+                            PhoneNumber = "185-557-2464",
+                            Published = false
                         },
                         new
                         {
@@ -259,7 +276,8 @@ Canada
                             Name = "Le Super Berniece",
                             OwnerFirstName = "Conrad",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "523-786-6877"
+                            PhoneNumber = "523-786-6877",
+                            Published = false
                         },
                         new
                         {
@@ -273,7 +291,8 @@ Canada
                             Name = "Le Super Conrad",
                             OwnerFirstName = "Sherlene",
                             OwnerLastName = "Kedainkai",
-                            PhoneNumber = "158-845-1482"
+                            PhoneNumber = "158-845-1482",
+                            Published = false
                         },
                         new
                         {
@@ -287,7 +306,8 @@ Canada
                             Name = "Le Super Sherlene",
                             OwnerFirstName = "Nicholas",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "576-284-5815"
+                            PhoneNumber = "576-284-5815",
+                            Published = false
                         },
                         new
                         {
@@ -301,7 +321,8 @@ Canada
                             Name = "Le Super Nicholas",
                             OwnerFirstName = "Tyson",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "213-433-8428"
+                            PhoneNumber = "213-433-8428",
+                            Published = false
                         },
                         new
                         {
@@ -315,7 +336,8 @@ Canada
                             Name = "Le Super Tyson",
                             OwnerFirstName = "Derick",
                             OwnerLastName = "Ísafholt",
-                            PhoneNumber = "641-572-4833"
+                            PhoneNumber = "641-572-4833",
+                            Published = false
                         },
                         new
                         {
@@ -329,7 +351,8 @@ Canada
                             Name = "Le Super Derick",
                             OwnerFirstName = "Leida",
                             OwnerLastName = "Hammervåg",
-                            PhoneNumber = "266-721-7446"
+                            PhoneNumber = "266-721-7446",
+                            Published = false
                         },
                         new
                         {
@@ -343,7 +366,8 @@ Canada
                             Name = "Le Super Leida",
                             OwnerFirstName = "Debi",
                             OwnerLastName = "Kulli",
-                            PhoneNumber = "684-168-3851"
+                            PhoneNumber = "684-168-3851",
+                            Published = false
                         },
                         new
                         {
@@ -357,7 +381,8 @@ Canada
                             Name = "Le Super Debi",
                             OwnerFirstName = "Ernestine",
                             OwnerLastName = "Enbo",
-                            PhoneNumber = "232-327-7464"
+                            PhoneNumber = "232-327-7464",
+                            Published = false
                         },
                         new
                         {
@@ -371,7 +396,8 @@ Canada
                             Name = "Le Super Ernestine",
                             OwnerFirstName = "Adrian",
                             OwnerLastName = "Lazmerge",
-                            PhoneNumber = "657-456-2877"
+                            PhoneNumber = "657-456-2877",
+                            Published = false
                         },
                         new
                         {
@@ -385,7 +411,8 @@ Canada
                             Name = "Le Super Adrian",
                             OwnerFirstName = "Eugenie",
                             OwnerLastName = "Reidcoln",
-                            PhoneNumber = "375-615-6481"
+                            PhoneNumber = "375-615-6481",
+                            Published = false
                         },
                         new
                         {
@@ -399,7 +426,8 @@ Canada
                             Name = "Le Super Eugenie",
                             OwnerFirstName = "Cathryn",
                             OwnerLastName = "Breksos",
-                            PhoneNumber = "722-844-1814"
+                            PhoneNumber = "722-844-1814",
+                            Published = false
                         },
                         new
                         {
@@ -413,7 +441,8 @@ Canada
                             Name = "Le Super Cathryn",
                             OwnerFirstName = "Jamal",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "348-183-5427"
+                            PhoneNumber = "348-183-5427",
+                            Published = false
                         },
                         new
                         {
@@ -427,7 +456,8 @@ Canada
                             Name = "Le Super Jamal",
                             OwnerFirstName = "Emely",
                             OwnerLastName = "Norrviken",
-                            PhoneNumber = "766-342-1832"
+                            PhoneNumber = "766-342-1832",
+                            Published = false
                         },
                         new
                         {
@@ -441,7 +471,8 @@ Canada
                             Name = "Le Super Emely",
                             OwnerFirstName = "Arielle",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "313-571-4445"
+                            PhoneNumber = "313-571-4445",
+                            Published = false
                         },
                         new
                         {
@@ -455,7 +486,8 @@ Canada
                             Name = "Le Super Arielle",
                             OwnerFirstName = "Steven",
                             OwnerLastName = "Ulhus",
-                            PhoneNumber = "831-638-8858"
+                            PhoneNumber = "831-638-8858",
+                            Published = false
                         },
                         new
                         {
@@ -469,7 +501,8 @@ Canada
                             Name = "Le Super Steven",
                             OwnerFirstName = "Roma",
                             OwnerLastName = "Apatcruz",
-                            PhoneNumber = "456-877-3463"
+                            PhoneNumber = "456-877-3463",
+                            Published = false
                         },
                         new
                         {
@@ -483,7 +516,8 @@ Canada
                             Name = "Le Super Roma",
                             OwnerFirstName = "Simonne",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "884-226-7876"
+                            PhoneNumber = "884-226-7876",
+                            Published = false
                         },
                         new
                         {
@@ -497,7 +531,8 @@ Canada
                             Name = "Le Super Simonne",
                             OwnerFirstName = "Jeanetta",
                             OwnerLastName = "Mensmere",
-                            PhoneNumber = "422-465-2481"
+                            PhoneNumber = "422-465-2481",
+                            Published = false
                         },
                         new
                         {
@@ -511,7 +546,8 @@ Canada
                             Name = "Le Super Jeanetta",
                             OwnerFirstName = "Angelina",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "857-514-6814"
+                            PhoneNumber = "857-514-6814",
+                            Published = false
                         },
                         new
                         {
@@ -525,7 +561,8 @@ Canada
                             Name = "Le Super Angelina",
                             OwnerFirstName = "Magen",
                             OwnerLastName = "Albro",
-                            PhoneNumber = "475-753-2427"
+                            PhoneNumber = "475-753-2427",
+                            Published = false
                         },
                         new
                         {
@@ -539,7 +576,8 @@ Canada
                             Name = "Le Super Magen",
                             OwnerFirstName = "Jane",
                             OwnerLastName = "Hókrókur",
-                            PhoneNumber = "112-112-5132"
+                            PhoneNumber = "112-112-5132",
+                            Published = false
                         },
                         new
                         {
@@ -553,7 +591,8 @@ Canada
                             Name = "Le Super Jane",
                             OwnerFirstName = "Tonita",
                             OwnerLastName = "Loktu",
-                            PhoneNumber = "548-241-1545"
+                            PhoneNumber = "548-241-1545",
+                            Published = false
                         },
                         new
                         {
@@ -567,7 +606,8 @@ Canada
                             Name = "Le Super Tonita",
                             OwnerFirstName = "Dina",
                             OwnerLastName = "Ketne",
-                            PhoneNumber = "166-488-4158"
+                            PhoneNumber = "166-488-4158",
+                            Published = false
                         },
                         new
                         {
@@ -581,7 +621,8 @@ Canada
                             Name = "Le Super Dina",
                             OwnerFirstName = "Conrad",
                             OwnerLastName = "Siukoski",
-                            PhoneNumber = "583-637-8563"
+                            PhoneNumber = "583-637-8563",
+                            Published = false
                         },
                         new
                         {
@@ -595,7 +636,8 @@ Canada
                             Name = "Le Super Conrad",
                             OwnerFirstName = "Adell",
                             OwnerLastName = "Kedainkai",
-                            PhoneNumber = "131-876-4176"
+                            PhoneNumber = "131-876-4176",
+                            Published = false
                         },
                         new
                         {
@@ -609,7 +651,8 @@ Canada
                             Name = "Le Super Adell",
                             OwnerFirstName = "Pierre",
                             OwnerLastName = "Akssandur",
-                            PhoneNumber = "556-135-7581"
+                            PhoneNumber = "556-135-7581",
+                            Published = false
                         },
                         new
                         {
@@ -623,7 +666,8 @@ Canada
                             Name = "Le Super Pierre",
                             OwnerFirstName = "Bianca",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "274-364-3114"
+                            PhoneNumber = "274-364-3114",
+                            Published = false
                         },
                         new
                         {
@@ -637,7 +681,8 @@ Canada
                             Name = "Le Super Bianca",
                             OwnerFirstName = "Barbie",
                             OwnerLastName = "Jaunli",
-                            PhoneNumber = "622-523-6527"
+                            PhoneNumber = "622-523-6527",
+                            Published = false
                         },
                         new
                         {
@@ -651,7 +696,8 @@ Canada
                             Name = "Le Super Barbie",
                             OwnerFirstName = "Leida",
                             OwnerLastName = "Kungstuna",
-                            PhoneNumber = "247-652-2132"
+                            PhoneNumber = "247-652-2132",
+                            Published = false
                         },
                         new
                         {
@@ -665,7 +711,8 @@ Canada
                             Name = "Le Super Leida",
                             OwnerFirstName = "Rosetta",
                             OwnerLastName = "Jonkruojis",
-                            PhoneNumber = "665-811-5544"
+                            PhoneNumber = "665-811-5544",
+                            Published = false
                         },
                         new
                         {
@@ -679,7 +726,8 @@ Canada
                             Name = "Le Super Rosetta",
                             OwnerFirstName = "Krissy",
                             OwnerLastName = "Clarehurst",
-                            PhoneNumber = "212-258-1157"
+                            PhoneNumber = "212-258-1157",
+                            Published = false
                         },
                         new
                         {
@@ -693,7 +741,8 @@ Canada
                             Name = "Le Super Krissy",
                             OwnerFirstName = "Marlon",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "738-487-5562"
+                            PhoneNumber = "738-487-5562",
+                            Published = false
                         },
                         new
                         {
@@ -707,7 +756,8 @@ Canada
                             Name = "Le Super Marlon",
                             OwnerFirstName = "Palmira",
                             OwnerLastName = "Flatwood",
-                            PhoneNumber = "355-546-8175"
+                            PhoneNumber = "355-546-8175",
+                            Published = false
                         },
                         new
                         {
@@ -721,7 +771,8 @@ Canada
                             Name = "Le Super Palmira",
                             OwnerFirstName = "Cathryn",
                             OwnerLastName = "Breksos",
-                            PhoneNumber = "783-785-4588"
+                            PhoneNumber = "783-785-4588",
+                            Published = false
                         },
                         new
                         {
@@ -735,7 +786,8 @@ Canada
                             Name = "Le Super Cathryn",
                             OwnerFirstName = "Eugenio",
                             OwnerLastName = "Uummanqaq",
-                            PhoneNumber = "321-134-7113"
+                            PhoneNumber = "321-134-7113",
+                            Published = false
                         },
                         new
                         {
@@ -749,7 +801,8 @@ Canada
                             Name = "Le Super Eugenio",
                             OwnerFirstName = "Troy",
                             OwnerLastName = "Norrviken",
-                            PhoneNumber = "746-273-3526"
+                            PhoneNumber = "746-273-3526",
+                            Published = false
                         },
                         new
                         {
@@ -763,7 +816,8 @@ Canada
                             Name = "Le Super Troy",
                             OwnerFirstName = "Tad",
                             OwnerLastName = "Ixtatla",
-                            PhoneNumber = "374-422-7131"
+                            PhoneNumber = "374-422-7131",
+                            Published = false
                         },
                         new
                         {
@@ -777,7 +831,8 @@ Canada
                             Name = "Le Super Tad",
                             OwnerFirstName = "Vi",
                             OwnerLastName = "Ulhus",
-                            PhoneNumber = "811-661-2544"
+                            PhoneNumber = "811-661-2544",
+                            Published = false
                         },
                         new
                         {
@@ -791,7 +846,8 @@ Canada
                             Name = "Le Super Vi",
                             OwnerFirstName = "Roma",
                             OwnerLastName = "Guasabaro",
-                            PhoneNumber = "437-728-6157"
+                            PhoneNumber = "437-728-6157",
+                            Published = false
                         },
                         new
                         {
@@ -805,7 +861,8 @@ Canada
                             Name = "Le Super Roma",
                             OwnerFirstName = "Alejandro",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "865-156-1562"
+                            PhoneNumber = "865-156-1562",
+                            Published = false
                         },
                         new
                         {
@@ -819,7 +876,8 @@ Canada
                             Name = "Le Super Alejandro",
                             OwnerFirstName = "Liliana",
                             OwnerLastName = "Boswood",
-                            PhoneNumber = "482-315-5175"
+                            PhoneNumber = "482-315-5175",
+                            Published = false
                         },
                         new
                         {
@@ -833,7 +891,8 @@ Canada
                             Name = "Le Super Liliana",
                             OwnerFirstName = "Marcie",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "828-544-8588"
+                            PhoneNumber = "828-544-8588",
+                            Published = false
                         },
                         new
                         {
@@ -847,7 +906,8 @@ Canada
                             Name = "Le Super Marcie",
                             OwnerFirstName = "Mariella",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "555-683-4113"
+                            PhoneNumber = "555-683-4113",
+                            Published = false
                         },
                         new
                         {
@@ -861,7 +921,8 @@ Canada
                             Name = "Le Super Mariella",
                             OwnerFirstName = "Jane",
                             OwnerLastName = "Ólafsholt",
-                            PhoneNumber = "173-842-8526"
+                            PhoneNumber = "173-842-8526",
+                            Published = false
                         },
                         new
                         {
@@ -875,7 +936,8 @@ Canada
                             Name = "Le Super Jane",
                             OwnerFirstName = "Marcella",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "521-271-3131"
+                            PhoneNumber = "521-271-3131",
+                            Published = false
                         },
                         new
                         {
@@ -889,7 +951,8 @@ Canada
                             Name = "Le Super Marcella",
                             OwnerFirstName = "Sherlene",
                             OwnerLastName = "Salkile",
-                            PhoneNumber = "146-338-7544"
+                            PhoneNumber = "146-338-7544",
+                            Published = false
                         },
                         new
                         {
@@ -903,7 +966,8 @@ Canada
                             Name = "Le Super Sherlene",
                             OwnerFirstName = "Antonetta",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "564-567-2157"
+                            PhoneNumber = "564-567-2157",
+                            Published = false
                         },
                         new
                         {
@@ -917,7 +981,8 @@ Canada
                             Name = "Le Super Antonetta",
                             OwnerFirstName = "Tyson",
                             OwnerLastName = "Balniai",
-                            PhoneNumber = "111-726-6562"
+                            PhoneNumber = "111-726-6562",
+                            Published = false
                         },
                         new
                         {
@@ -931,7 +996,8 @@ Canada
                             Name = "Le Super Tyson",
                             OwnerFirstName = "Pierre",
                             OwnerLastName = "Akssandur",
-                            PhoneNumber = "637-165-2175"
+                            PhoneNumber = "637-165-2175",
+                            Published = false
                         },
                         new
                         {
@@ -945,7 +1011,8 @@ Canada
                             Name = "Le Super Pierre",
                             OwnerFirstName = "Sheridan",
                             OwnerLastName = "Hammervåg",
-                            PhoneNumber = "255-214-5587"
+                            PhoneNumber = "255-214-5587",
+                            Published = false
                         },
                         new
                         {
@@ -959,7 +1026,8 @@ Canada
                             Name = "Le Super Sheridan",
                             OwnerFirstName = "Debi",
                             OwnerLastName = "Jaunli",
-                            PhoneNumber = "682-453-1112"
+                            PhoneNumber = "682-453-1112",
+                            Published = false
                         },
                         new
                         {
@@ -973,7 +1041,8 @@ Canada
                             Name = "Le Super Debi",
                             OwnerFirstName = "Johana",
                             OwnerLastName = "Enbo",
-                            PhoneNumber = "228-612-4525"
+                            PhoneNumber = "228-612-4525",
+                            Published = false
                         },
                         new
                         {
@@ -987,7 +1056,8 @@ Canada
                             Name = "Le Super Johana",
                             OwnerFirstName = "Adrian",
                             OwnerLastName = "Jonkruojis",
-                            PhoneNumber = "645-741-8138"
+                            PhoneNumber = "645-741-8138",
+                            Published = false
                         },
                         new
                         {
@@ -1001,7 +1071,8 @@ Canada
                             Name = "Le Super Adrian",
                             OwnerFirstName = "Krissy",
                             OwnerLastName = "Reidcoln",
-                            PhoneNumber = "373-188-3543"
+                            PhoneNumber = "373-188-3543",
+                            Published = false
                         },
                         new
                         {
@@ -1015,7 +1086,8 @@ Canada
                             Name = "Le Super Krissy",
                             OwnerFirstName = "Pat",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "718-337-7156"
+                            PhoneNumber = "718-337-7156",
+                            Published = false
                         },
                         new
                         {
@@ -1029,7 +1101,8 @@ Canada
                             Name = "Le Super Pat",
                             OwnerFirstName = "Jamal",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "336-476-3561"
+                            PhoneNumber = "336-476-3561",
+                            Published = false
                         },
                         new
                         {
@@ -1043,7 +1116,8 @@ Canada
                             Name = "Le Super Jamal",
                             OwnerFirstName = "Ralph",
                             OwnerLastName = "Vadtälje",
-                            PhoneNumber = "764-635-6174"
+                            PhoneNumber = "764-635-6174",
+                            Published = false
                         },
                         new
                         {
@@ -1057,7 +1131,8 @@ Canada
                             Name = "Le Super Ralph",
                             OwnerFirstName = "Arielle",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "381-864-2587"
+                            PhoneNumber = "381-864-2587",
+                            Published = false
                         },
                         new
                         {
@@ -1071,7 +1146,8 @@ Canada
                             Name = "Le Super Arielle",
                             OwnerFirstName = "Troy",
                             OwnerLastName = "Lystrup",
-                            PhoneNumber = "727-223-5112"
+                            PhoneNumber = "727-223-5112",
+                            Published = false
                         },
                         new
                         {
@@ -1085,7 +1161,8 @@ Canada
                             Name = "Le Super Troy",
                             OwnerFirstName = "Marcell",
                             OwnerLastName = "Apatcruz",
-                            PhoneNumber = "454-352-1525"
+                            PhoneNumber = "454-352-1525",
+                            Published = false
                         },
                         new
                         {
@@ -1099,7 +1176,8 @@ Canada
                             Name = "Le Super Marcell",
                             OwnerFirstName = "Simonne",
                             OwnerLastName = "Haapsa",
-                            PhoneNumber = "872-511-5138"
+                            PhoneNumber = "872-511-5138",
+                            Published = false
                         },
                         new
                         {
@@ -1113,7 +1191,8 @@ Canada
                             Name = "Le Super Simonne",
                             OwnerFirstName = "Sherise",
                             OwnerLastName = "Guasabaro",
-                            PhoneNumber = "418-758-8543"
+                            PhoneNumber = "418-758-8543",
+                            Published = false
                         },
                         new
                         {
@@ -1127,7 +1206,8 @@ Canada
                             Name = "Le Super Sherise",
                             OwnerFirstName = "Angelina",
                             OwnerLastName = "Kalatee",
-                            PhoneNumber = "845-887-4156"
+                            PhoneNumber = "845-887-4156",
+                            Published = false
                         },
                         new
                         {
@@ -1141,7 +1221,8 @@ Canada
                             Name = "Le Super Angelina",
                             OwnerFirstName = "Liliana",
                             OwnerLastName = "Boswood",
-                            PhoneNumber = "463-246-7561"
+                            PhoneNumber = "463-246-7561",
+                            Published = false
                         },
                         new
                         {
@@ -1155,7 +1236,8 @@ Canada
                             Name = "Le Super Liliana",
                             OwnerFirstName = "Sheryl",
                             OwnerLastName = "Hókrókur",
-                            PhoneNumber = "888-475-3174"
+                            PhoneNumber = "888-475-3174",
+                            Published = false
                         },
                         new
                         {
@@ -1169,7 +1251,8 @@ Canada
                             Name = "Le Super Sheryl",
                             OwnerFirstName = "Tonita",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "536-634-7577"
+                            PhoneNumber = "536-634-7577",
+                            Published = false
                         },
                         new
                         {
@@ -1183,7 +1266,8 @@ Canada
                             Name = "Le Super Tonita",
                             OwnerFirstName = "Berniece",
                             OwnerLastName = "Ketne",
-                            PhoneNumber = "154-773-2182"
+                            PhoneNumber = "154-773-2182",
+                            Published = false
                         },
                         new
                         {
@@ -1197,7 +1281,8 @@ Canada
                             Name = "Le Super Berniece",
                             OwnerFirstName = "Conrad",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "581-122-6515"
+                            PhoneNumber = "581-122-6515",
+                            Published = false
                         },
                         new
                         {
@@ -1211,7 +1296,8 @@ Canada
                             Name = "Le Super Conrad",
                             OwnerFirstName = "Sherlene",
                             OwnerLastName = "Kedainkai",
-                            PhoneNumber = "127-361-1128"
+                            PhoneNumber = "127-361-1128",
+                            Published = false
                         },
                         new
                         {
@@ -1225,7 +1311,8 @@ Canada
                             Name = "Le Super Sherlene",
                             OwnerFirstName = "Nicholas",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "544-428-5532"
+                            PhoneNumber = "544-428-5532",
+                            Published = false
                         },
                         new
                         {
@@ -1239,7 +1326,8 @@ Canada
                             Name = "Le Super Nicholas",
                             OwnerFirstName = "Bianca",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "272-657-8145"
+                            PhoneNumber = "272-657-8145",
+                            Published = false
                         },
                         new
                         {
@@ -1253,7 +1341,8 @@ Canada
                             Name = "Le Super Bianca",
                             OwnerFirstName = "Derick",
                             OwnerLastName = "Ísafholt",
-                            PhoneNumber = "618-816-4558"
+                            PhoneNumber = "618-816-4558",
+                            Published = false
                         },
                         new
                         {
@@ -1267,7 +1356,8 @@ Canada
                             Name = "Le Super Derick",
                             OwnerFirstName = "Leida",
                             OwnerLastName = "Kungstuna",
-                            PhoneNumber = "235-245-8163"
+                            PhoneNumber = "235-245-8163",
+                            Published = false
                         },
                         new
                         {
@@ -1281,7 +1371,8 @@ Canada
                             Name = "Le Super Leida",
                             OwnerFirstName = "Debi",
                             OwnerLastName = "Kulli",
-                            PhoneNumber = "663-384-3576"
+                            PhoneNumber = "663-384-3576",
+                            Published = false
                         },
                         new
                         {
@@ -1295,7 +1386,8 @@ Canada
                             Name = "Le Super Debi",
                             OwnerFirstName = "Ernestine",
                             OwnerLastName = "Clarehurst",
-                            PhoneNumber = "288-543-7181"
+                            PhoneNumber = "288-543-7181",
+                            Published = false
                         },
                         new
                         {
@@ -1309,7 +1401,8 @@ Canada
                             Name = "Le Super Ernestine",
                             OwnerFirstName = "Marlon",
                             OwnerLastName = "Lazmerge",
-                            PhoneNumber = "626-772-2514"
+                            PhoneNumber = "626-772-2514",
+                            Published = false
                         },
                         new
                         {
@@ -1323,7 +1416,8 @@ Canada
                             Name = "Le Super Marlon",
                             OwnerFirstName = "Eugenie",
                             OwnerLastName = "Reidcoln",
-                            PhoneNumber = "354-831-6127"
+                            PhoneNumber = "354-831-6127",
+                            Published = false
                         },
                         new
                         {
@@ -1337,7 +1431,8 @@ Canada
                             Name = "Le Super Eugenie",
                             OwnerFirstName = "Cathryn",
                             OwnerLastName = "Breksos",
-                            PhoneNumber = "771-268-2532"
+                            PhoneNumber = "771-268-2532",
+                            Published = false
                         },
                         new
                         {
@@ -1351,7 +1446,8 @@ Canada
                             Name = "Le Super Cathryn",
                             OwnerFirstName = "Jamal",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "317-427-5145"
+                            PhoneNumber = "317-427-5145",
+                            Published = false
                         },
                         new
                         {
@@ -1365,7 +1461,8 @@ Canada
                             Name = "Le Super Jamal",
                             OwnerFirstName = "Emely",
                             OwnerLastName = "Norrviken",
-                            PhoneNumber = "744-566-1558"
+                            PhoneNumber = "744-566-1558",
+                            Published = false
                         },
                         new
                         {
@@ -1379,7 +1476,8 @@ Canada
                             Name = "Le Super Emely",
                             OwnerFirstName = "Tad",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "362-715-4163"
+                            PhoneNumber = "362-715-4163",
+                            Published = false
                         },
                         new
                         {
@@ -1393,7 +1491,8 @@ Canada
                             Name = "Le Super Tad",
                             OwnerFirstName = "Steven",
                             OwnerLastName = "Ulhus",
-                            PhoneNumber = "887-154-8576"
+                            PhoneNumber = "887-154-8576",
+                            Published = false
                         },
                         new
                         {
@@ -1407,7 +1506,8 @@ Canada
                             Name = "Le Super Steven",
                             OwnerFirstName = "Roma",
                             OwnerLastName = "Apatcruz",
-                            PhoneNumber = "435-313-3181"
+                            PhoneNumber = "435-313-3181",
+                            Published = false
                         },
                         new
                         {
@@ -1421,7 +1521,8 @@ Canada
                             Name = "Le Super Roma",
                             OwnerFirstName = "Simonne",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "853-442-7514"
+                            PhoneNumber = "853-442-7514",
+                            Published = false
                         },
                         new
                         {
@@ -1435,7 +1536,8 @@ Canada
                             Name = "Le Super Simonne",
                             OwnerFirstName = "Jeanetta",
                             OwnerLastName = "Mensmere",
-                            PhoneNumber = "478-681-3127"
+                            PhoneNumber = "478-681-3127",
+                            Published = false
                         },
                         new
                         {
@@ -1449,7 +1551,8 @@ Canada
                             Name = "Le Super Jeanetta",
                             OwnerFirstName = "Marcie",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "826-838-6532"
+                            PhoneNumber = "826-838-6532",
+                            Published = false
                         },
                         new
                         {
@@ -1463,7 +1566,8 @@ Canada
                             Name = "Le Super Marcie",
                             OwnerFirstName = "Magen",
                             OwnerLastName = "Albro",
-                            PhoneNumber = "443-177-2145"
+                            PhoneNumber = "443-177-2145",
+                            Published = false
                         },
                         new
                         {
@@ -1477,7 +1581,8 @@ Canada
                             Name = "Le Super Magen",
                             OwnerFirstName = "Jane",
                             OwnerLastName = "Ólafsholt",
-                            PhoneNumber = "161-336-5558"
+                            PhoneNumber = "161-336-5558",
+                            Published = false
                         },
                         new
                         {
@@ -1491,7 +1596,8 @@ Canada
                             Name = "Le Super Jane",
                             OwnerFirstName = "Tonita",
                             OwnerLastName = "Loktu",
-                            PhoneNumber = "517-565-1163"
+                            PhoneNumber = "517-565-1163",
+                            Published = false
                         },
                         new
                         {
@@ -1505,7 +1611,8 @@ Canada
                             Name = "Le Super Tonita",
                             OwnerFirstName = "Dina",
                             OwnerLastName = "Ketne",
-                            PhoneNumber = "134-724-5575"
+                            PhoneNumber = "134-724-5575",
+                            Published = false
                         },
                         new
                         {
@@ -1519,7 +1626,8 @@ Canada
                             Name = "Le Super Dina",
                             OwnerFirstName = "Antonetta",
                             OwnerLastName = "Siukoski",
-                            PhoneNumber = "562-853-8188"
+                            PhoneNumber = "562-853-8188",
+                            Published = false
                         },
                         new
                         {
@@ -1533,7 +1641,8 @@ Canada
                             Name = "Le Super Antonetta",
                             OwnerFirstName = "Adell",
                             OwnerLastName = "Kedainkai",
-                            PhoneNumber = "187-212-4513"
+                            PhoneNumber = "187-212-4513",
+                            Published = false
                         },
                         new
                         {
@@ -1547,7 +1656,8 @@ Canada
                             Name = "Le Super Adell",
                             OwnerFirstName = "Pierre",
                             OwnerLastName = "Akssandur",
-                            PhoneNumber = "625-451-7126"
+                            PhoneNumber = "625-451-7126",
+                            Published = false
                         },
                         new
                         {
@@ -1561,7 +1671,8 @@ Canada
                             Name = "Le Super Pierre",
                             OwnerFirstName = "Bianca",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "253-588-3531"
+                            PhoneNumber = "253-588-3531",
+                            Published = false
                         },
                         new
                         {
@@ -1575,7 +1686,8 @@ Canada
                             Name = "Le Super Bianca",
                             OwnerFirstName = "Barbie",
                             OwnerLastName = "Jaunli",
-                            PhoneNumber = "678-747-6244"
+                            PhoneNumber = "678-747-6244",
+                            Published = false
                         },
                         new
                         {
@@ -1589,7 +1701,8 @@ Canada
                             Name = "Le Super Barbie",
                             OwnerFirstName = "Johana",
                             OwnerLastName = "Kungstuna",
-                            PhoneNumber = "216-176-2657"
+                            PhoneNumber = "216-176-2657",
+                            Published = false
                         },
                         new
                         {
@@ -1603,7 +1716,8 @@ Canada
                             Name = "Le Super Johana",
                             OwnerFirstName = "Rosetta",
                             OwnerLastName = "Jonkruojis",
-                            PhoneNumber = "643-335-6262"
+                            PhoneNumber = "643-335-6262",
+                            Published = false
                         },
                         new
                         {
@@ -1617,7 +1731,8 @@ Canada
                             Name = "Le Super Rosetta",
                             OwnerFirstName = "Krissy",
                             OwnerLastName = "Clarehurst",
-                            PhoneNumber = "261-474-1675"
+                            PhoneNumber = "261-474-1675",
+                            Published = false
                         },
                         new
                         {
@@ -1631,7 +1746,8 @@ Canada
                             Name = "Le Super Krissy",
                             OwnerFirstName = "Marlon",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "787-623-5288"
+                            PhoneNumber = "787-623-5288",
+                            Published = false
                         },
                         new
                         {
@@ -1645,7 +1761,8 @@ Canada
                             Name = "Le Super Marlon",
                             OwnerFirstName = "Palmira",
                             OwnerLastName = "Flatwood",
-                            PhoneNumber = "334-862-8613"
+                            PhoneNumber = "334-862-8613",
+                            Published = false
                         },
                         new
                         {
@@ -1659,7 +1776,8 @@ Canada
                             Name = "Le Super Palmira",
                             OwnerFirstName = "Ralph",
                             OwnerLastName = "Vadtälje",
-                            PhoneNumber = "752-121-4226"
+                            PhoneNumber = "752-121-4226",
+                            Published = false
                         },
                         new
                         {
@@ -1673,7 +1791,8 @@ Canada
                             Name = "Le Super Ralph",
                             OwnerFirstName = "Eugenio",
                             OwnerLastName = "Uummanqaq",
-                            PhoneNumber = "377-358-8631"
+                            PhoneNumber = "377-358-8631",
+                            Published = false
                         },
                         new
                         {
@@ -1687,7 +1806,8 @@ Canada
                             Name = "Le Super Eugenio",
                             OwnerFirstName = "Troy",
                             OwnerLastName = "Lystrup",
-                            PhoneNumber = "725-517-3244"
+                            PhoneNumber = "725-517-3244",
+                            Published = false
                         },
                         new
                         {
@@ -1701,7 +1821,8 @@ Canada
                             Name = "Le Super Troy",
                             OwnerFirstName = "Tad",
                             OwnerLastName = "Ixtatla",
-                            PhoneNumber = "342-646-7657"
+                            PhoneNumber = "342-646-7657",
+                            Published = false
                         },
                         new
                         {
@@ -1715,7 +1836,8 @@ Canada
                             Name = "Le Super Tad",
                             OwnerFirstName = "Vi",
                             OwnerLastName = "Ulhus",
-                            PhoneNumber = "868-885-2262"
+                            PhoneNumber = "868-885-2262",
+                            Published = false
                         },
                         new
                         {
@@ -1729,7 +1851,8 @@ Canada
                             Name = "Le Super Vi",
                             OwnerFirstName = "Sherise",
                             OwnerLastName = "Guasabaro",
-                            PhoneNumber = "416-244-6675"
+                            PhoneNumber = "416-244-6675",
+                            Published = false
                         },
                         new
                         {
@@ -1743,7 +1866,8 @@ Canada
                             Name = "Le Super Sherise",
                             OwnerFirstName = "Alejandro",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "833-473-1288"
+                            PhoneNumber = "833-473-1288",
+                            Published = false
                         },
                         new
                         {
@@ -1757,7 +1881,8 @@ Canada
                             Name = "Le Super Alejandro",
                             OwnerFirstName = "Liliana",
                             OwnerLastName = "Boswood",
-                            PhoneNumber = "451-532-5613"
+                            PhoneNumber = "451-532-5613",
+                            Published = false
                         },
                         new
                         {
@@ -1771,7 +1896,8 @@ Canada
                             Name = "Le Super Liliana",
                             OwnerFirstName = "Marcie",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "886-761-1226"
+                            PhoneNumber = "886-761-1226",
+                            Published = false
                         },
                         new
                         {
@@ -1785,7 +1911,8 @@ Canada
                             Name = "Le Super Marcie",
                             OwnerFirstName = "Mariella",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "524-128-4638"
+                            PhoneNumber = "524-128-4638",
+                            Published = false
                         },
                         new
                         {
@@ -1799,7 +1926,8 @@ Canada
                             Name = "Le Super Mariella",
                             OwnerFirstName = "Berniece",
                             OwnerLastName = "Ólafsholt",
-                            PhoneNumber = "142-267-8243"
+                            PhoneNumber = "142-267-8243",
+                            Published = false
                         },
                         new
                         {
@@ -1813,7 +1941,8 @@ Canada
                             Name = "Le Super Berniece",
                             OwnerFirstName = "Marcella",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "577-416-3656"
+                            PhoneNumber = "577-416-3656",
+                            Published = false
                         },
                         new
                         {
@@ -1827,7 +1956,8 @@ Canada
                             Name = "Le Super Marcella",
                             OwnerFirstName = "Sherlene",
                             OwnerLastName = "Salkile",
-                            PhoneNumber = "115-655-7261"
+                            PhoneNumber = "115-655-7261",
+                            Published = false
                         },
                         new
                         {
@@ -1841,7 +1971,8 @@ Canada
                             Name = "Le Super Sherlene",
                             OwnerFirstName = "Antonetta",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "532-884-3674"
+                            PhoneNumber = "532-884-3674",
+                            Published = false
                         },
                         new
                         {
@@ -1855,7 +1986,8 @@ Canada
                             Name = "Le Super Antonetta",
                             OwnerFirstName = "Tyson",
                             OwnerLastName = "Balniai",
-                            PhoneNumber = "168-143-6287"
+                            PhoneNumber = "168-143-6287",
+                            Published = false
                         },
                         new
                         {
@@ -1869,7 +2001,8 @@ Canada
                             Name = "Le Super Tyson",
                             OwnerFirstName = "Derick",
                             OwnerLastName = "Ísafholt",
-                            PhoneNumber = "686-382-2612"
+                            PhoneNumber = "686-382-2612",
+                            Published = false
                         },
                         new
                         {
@@ -1883,7 +2016,8 @@ Canada
                             Name = "Le Super Derick",
                             OwnerFirstName = "Sheridan",
                             OwnerLastName = "Hammervåg",
-                            PhoneNumber = "233-531-5225"
+                            PhoneNumber = "233-531-5225",
+                            Published = false
                         },
                         new
                         {
@@ -1897,7 +2031,8 @@ Canada
                             Name = "Le Super Sheridan",
                             OwnerFirstName = "Debi",
                             OwnerLastName = "Jaunli",
-                            PhoneNumber = "651-678-1638"
+                            PhoneNumber = "651-678-1638",
+                            Published = false
                         },
                         new
                         {
@@ -1911,7 +2046,8 @@ Canada
                             Name = "Le Super Debi",
                             OwnerFirstName = "Johana",
                             OwnerLastName = "Enbo",
-                            PhoneNumber = "276-837-4243"
+                            PhoneNumber = "276-837-4243",
+                            Published = false
                         },
                         new
                         {
@@ -1925,7 +2061,8 @@ Canada
                             Name = "Le Super Johana",
                             OwnerFirstName = "Adrian",
                             OwnerLastName = "Jonkruojis",
-                            PhoneNumber = "624-266-8656"
+                            PhoneNumber = "624-266-8656",
+                            Published = false
                         },
                         new
                         {
@@ -1939,7 +2076,8 @@ Canada
                             Name = "Le Super Adrian",
                             OwnerFirstName = "Eugenie",
                             OwnerLastName = "Reidcoln",
-                            PhoneNumber = "342-325-4261"
+                            PhoneNumber = "342-325-4261",
+                            Published = false
                         },
                         new
                         {
@@ -1953,7 +2091,8 @@ Canada
                             Name = "Le Super Eugenie",
                             OwnerFirstName = "Pat",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "767-554-7674"
+                            PhoneNumber = "767-554-7674",
+                            Published = false
                         },
                         new
                         {
@@ -1967,7 +2106,8 @@ Canada
                             Name = "Le Super Pat",
                             OwnerFirstName = "Jamal",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "315-713-3287"
+                            PhoneNumber = "315-713-3287",
+                            Published = false
                         },
                         new
                         {
@@ -1981,7 +2121,8 @@ Canada
                             Name = "Le Super Jamal",
                             OwnerFirstName = "Ralph",
                             OwnerLastName = "Vadtälje",
-                            PhoneNumber = "732-152-6612"
+                            PhoneNumber = "732-152-6612",
+                            Published = false
                         },
                         new
                         {
@@ -1995,7 +2136,8 @@ Canada
                             Name = "Le Super Ralph",
                             OwnerFirstName = "Arielle",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "358-281-2225"
+                            PhoneNumber = "358-281-2225",
+                            Published = false
                         },
                         new
                         {
@@ -2009,7 +2151,8 @@ Canada
                             Name = "Le Super Arielle",
                             OwnerFirstName = "Steven",
                             OwnerLastName = "Lystrup",
-                            PhoneNumber = "786-448-6638"
+                            PhoneNumber = "786-448-6638",
+                            Published = false
                         },
                         new
                         {
@@ -2023,7 +2166,8 @@ Canada
                             Name = "Le Super Steven",
                             OwnerFirstName = "Marcell",
                             OwnerLastName = "Apatcruz",
-                            PhoneNumber = "423-677-1243"
+                            PhoneNumber = "423-677-1243",
+                            Published = false
                         },
                         new
                         {
@@ -2037,7 +2181,8 @@ Canada
                             Name = "Le Super Marcell",
                             OwnerFirstName = "Simonne",
                             OwnerLastName = "Haapsa",
-                            PhoneNumber = "841-736-5656"
+                            PhoneNumber = "841-736-5656",
+                            Published = false
                         },
                         new
                         {
@@ -2051,7 +2196,8 @@ Canada
                             Name = "Le Super Simonne",
                             OwnerFirstName = "Sherise",
                             OwnerLastName = "Mensmere",
-                            PhoneNumber = "476-175-8261"
+                            PhoneNumber = "476-175-8261",
+                            Published = false
                         },
                         new
                         {
@@ -2065,7 +2211,8 @@ Canada
                             Name = "Le Super Sherise",
                             OwnerFirstName = "Angelina",
                             OwnerLastName = "Kalatee",
-                            PhoneNumber = "814-324-4673"
+                            PhoneNumber = "814-324-4673",
+                            Published = false
                         },
                         new
                         {
@@ -2079,7 +2226,8 @@ Canada
                             Name = "Le Super Angelina",
                             OwnerFirstName = "Magen",
                             OwnerLastName = "Albro",
-                            PhoneNumber = "431-563-7286"
+                            PhoneNumber = "431-563-7286",
+                            Published = false
                         },
                         new
                         {
@@ -2093,7 +2241,8 @@ Canada
                             Name = "Le Super Magen",
                             OwnerFirstName = "Sheryl",
                             OwnerLastName = "Hókrókur",
-                            PhoneNumber = "167-612-3611"
+                            PhoneNumber = "167-612-3611",
+                            Published = false
                         },
                         new
                         {
@@ -2107,7 +2256,8 @@ Canada
                             Name = "Le Super Sheryl",
                             OwnerFirstName = "Tonita",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "585-851-7224"
+                            PhoneNumber = "585-851-7224",
+                            Published = false
                         },
                         new
                         {
@@ -2121,7 +2271,8 @@ Canada
                             Name = "Le Super Tonita",
                             OwnerFirstName = "Berniece",
                             OwnerLastName = "Ketne",
-                            PhoneNumber = "122-218-2637"
+                            PhoneNumber = "122-218-2637",
+                            Published = false
                         },
                         new
                         {
@@ -2135,7 +2286,8 @@ Canada
                             Name = "Le Super Berniece",
                             OwnerFirstName = "Conrad",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "558-347-6242"
+                            PhoneNumber = "558-347-6242",
+                            Published = false
                         },
                         new
                         {
@@ -2149,7 +2301,8 @@ Canada
                             Name = "Le Super Conrad",
                             OwnerFirstName = "Adell",
                             OwnerLastName = "Kedainkai",
-                            PhoneNumber = "175-586-1655"
+                            PhoneNumber = "175-586-1655",
+                            Published = false
                         },
                         new
                         {
@@ -2163,7 +2316,8 @@ Canada
                             Name = "Le Super Adell",
                             OwnerFirstName = "Nicholas",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "513-745-5268"
+                            PhoneNumber = "513-745-5268",
+                            Published = false
                         },
                         new
                         {
@@ -2177,7 +2331,8 @@ Canada
                             Name = "Le Super Nicholas",
                             OwnerFirstName = "Bianca",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "241-174-1673"
+                            PhoneNumber = "241-174-1673",
+                            Published = false
                         },
                         new
                         {
@@ -2191,7 +2346,8 @@ Canada
                             Name = "Le Super Bianca",
                             OwnerFirstName = "Derick",
                             OwnerLastName = "Ísafholt",
-                            PhoneNumber = "666-233-4286"
+                            PhoneNumber = "666-233-4286",
+                            Published = false
                         },
                         new
                         {
@@ -2205,7 +2361,8 @@ Canada
                             Name = "Le Super Derick",
                             OwnerFirstName = "Leida",
                             OwnerLastName = "Kungstuna",
-                            PhoneNumber = "214-462-8611"
+                            PhoneNumber = "214-462-8611",
+                            Published = false
                         },
                         new
                         {
@@ -2219,7 +2376,8 @@ Canada
                             Name = "Le Super Leida",
                             OwnerFirstName = "Rosetta",
                             OwnerLastName = "Kulli",
-                            PhoneNumber = "631-621-3224"
+                            PhoneNumber = "631-621-3224",
+                            Published = false
                         },
                         new
                         {
@@ -2233,7 +2391,8 @@ Canada
                             Name = "Le Super Rosetta",
                             OwnerFirstName = "Ernestine",
                             OwnerLastName = "Clarehurst",
-                            PhoneNumber = "257-768-7637"
+                            PhoneNumber = "257-768-7637",
+                            Published = false
                         },
                         new
                         {
@@ -2247,7 +2406,8 @@ Canada
                             Name = "Le Super Ernestine",
                             OwnerFirstName = "Marlon",
                             OwnerLastName = "Lazmerge",
-                            PhoneNumber = "685-117-3242"
+                            PhoneNumber = "685-117-3242",
+                            Published = false
                         },
                         new
                         {
@@ -2261,7 +2421,8 @@ Canada
                             Name = "Le Super Marlon",
                             OwnerFirstName = "Eugenie",
                             OwnerLastName = "Flatwood",
-                            PhoneNumber = "322-356-6655"
+                            PhoneNumber = "322-356-6655",
+                            Published = false
                         },
                         new
                         {
@@ -2275,7 +2436,8 @@ Canada
                             Name = "Le Super Eugenie",
                             OwnerFirstName = "Cathryn",
                             OwnerLastName = "Breksos",
-                            PhoneNumber = "748-485-2268"
+                            PhoneNumber = "748-485-2268",
+                            Published = false
                         },
                         new
                         {
@@ -2289,7 +2451,8 @@ Canada
                             Name = "Le Super Cathryn",
                             OwnerFirstName = "Jamal",
                             OwnerLastName = "Nuugaatrapaluk",
-                            PhoneNumber = "375-644-5673"
+                            PhoneNumber = "375-644-5673",
+                            Published = false
                         },
                         new
                         {
@@ -2303,7 +2466,8 @@ Canada
                             Name = "Le Super Jamal",
                             OwnerFirstName = "Emely",
                             OwnerLastName = "Norrviken",
-                            PhoneNumber = "713-883-1286"
+                            PhoneNumber = "713-883-1286",
+                            Published = false
                         },
                         new
                         {
@@ -2317,7 +2481,8 @@ Canada
                             Name = "Le Super Emely",
                             OwnerFirstName = "Tad",
                             OwnerLastName = "Eqalunavik",
-                            PhoneNumber = "331-232-4611"
+                            PhoneNumber = "331-232-4611",
+                            Published = false
                         },
                         new
                         {
@@ -2331,7 +2496,8 @@ Canada
                             Name = "Le Super Tad",
                             OwnerFirstName = "Steven",
                             OwnerLastName = "Ulhus",
-                            PhoneNumber = "866-371-8224"
+                            PhoneNumber = "866-371-8224",
+                            Published = false
                         },
                         new
                         {
@@ -2345,7 +2511,8 @@ Canada
                             Name = "Le Super Steven",
                             OwnerFirstName = "Roma",
                             OwnerLastName = "Apatcruz",
-                            PhoneNumber = "484-528-4636"
+                            PhoneNumber = "484-528-4636",
+                            Published = false
                         },
                         new
                         {
@@ -2359,7 +2526,8 @@ Canada
                             Name = "Le Super Roma",
                             OwnerFirstName = "Simonne",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "821-767-7241"
+                            PhoneNumber = "821-767-7241",
+                            Published = false
                         },
                         new
                         {
@@ -2373,7 +2541,8 @@ Canada
                             Name = "Le Super Simonne",
                             OwnerFirstName = "Jeanetta",
                             OwnerLastName = "Mensmere",
-                            PhoneNumber = "457-826-3654"
+                            PhoneNumber = "457-826-3654",
+                            Published = false
                         },
                         new
                         {
@@ -2387,7 +2556,8 @@ Canada
                             Name = "Le Super Jeanetta",
                             OwnerFirstName = "Marcie",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "874-254-6267"
+                            PhoneNumber = "874-254-6267",
+                            Published = false
                         },
                         new
                         {
@@ -2401,7 +2571,8 @@ Canada
                             Name = "Le Super Marcie",
                             OwnerFirstName = "Magen",
                             OwnerLastName = "Albro",
-                            PhoneNumber = "412-413-2672"
+                            PhoneNumber = "412-413-2672",
+                            Published = false
                         },
                         new
                         {
@@ -2415,7 +2586,8 @@ Canada
                             Name = "Le Super Magen",
                             OwnerFirstName = "Jane",
                             OwnerLastName = "Ólafsholt",
-                            PhoneNumber = "148-652-6285"
+                            PhoneNumber = "148-652-6285",
+                            Published = false
                         },
                         new
                         {
@@ -2429,7 +2601,8 @@ Canada
                             Name = "Le Super Jane",
                             OwnerFirstName = "Tonita",
                             OwnerLastName = "Loktu",
-                            PhoneNumber = "565-781-1618"
+                            PhoneNumber = "565-781-1618",
+                            Published = false
                         },
                         new
                         {
@@ -2443,7 +2616,8 @@ Canada
                             Name = "Le Super Tonita",
                             OwnerFirstName = "Dina",
                             OwnerLastName = "Salkile",
-                            PhoneNumber = "183-148-5223"
+                            PhoneNumber = "183-148-5223",
+                            Published = false
                         },
                         new
                         {
@@ -2457,7 +2631,8 @@ Canada
                             Name = "Le Super Dina",
                             OwnerFirstName = "Antonetta",
                             OwnerLastName = "Siukoski",
-                            PhoneNumber = "538-377-8636"
+                            PhoneNumber = "538-377-8636",
+                            Published = false
                         },
                         new
                         {
@@ -2471,7 +2646,8 @@ Canada
                             Name = "Le Super Antonetta",
                             OwnerFirstName = "Adell",
                             OwnerLastName = "Balniai",
-                            PhoneNumber = "156-436-4241"
+                            PhoneNumber = "156-436-4241",
+                            Published = false
                         },
                         new
                         {
@@ -2485,7 +2661,8 @@ Canada
                             Name = "Le Super Adell",
                             OwnerFirstName = "Pierre",
                             OwnerLastName = "Akssandur",
-                            PhoneNumber = "674-675-7654"
+                            PhoneNumber = "674-675-7654",
+                            Published = false
                         },
                         new
                         {
@@ -2499,7 +2676,8 @@ Canada
                             Name = "Le Super Pierre",
                             OwnerFirstName = "Bianca",
                             OwnerLastName = "Brønnøyden",
-                            PhoneNumber = "221-824-3267"
+                            PhoneNumber = "221-824-3267",
+                            Published = false
                         },
                         new
                         {
@@ -2513,7 +2691,8 @@ Canada
                             Name = "Le Super Bianca",
                             OwnerFirstName = "Barbie",
                             OwnerLastName = "Jaunli",
-                            PhoneNumber = "647-163-7672"
+                            PhoneNumber = "647-163-7672",
+                            Published = false
                         },
                         new
                         {
@@ -2527,7 +2706,8 @@ Canada
                             Name = "Le Super Barbie",
                             OwnerFirstName = "Johana",
                             OwnerLastName = "Kungstuna",
-                            PhoneNumber = "274-312-2285"
+                            PhoneNumber = "274-312-2285",
+                            Published = false
                         },
                         new
                         {
@@ -2541,7 +2721,8 @@ Canada
                             Name = "Le Super Johana",
                             OwnerFirstName = "Rosetta",
                             OwnerLastName = "Jonkruojis",
-                            PhoneNumber = "612-551-6688"
+                            PhoneNumber = "612-551-6688",
+                            Published = false
                         },
                         new
                         {
@@ -2555,7 +2736,8 @@ Canada
                             Name = "Le Super Rosetta",
                             OwnerFirstName = "Krissy",
                             OwnerLastName = "Clarehurst",
-                            PhoneNumber = "238-718-1213"
+                            PhoneNumber = "238-718-1213",
+                            Published = false
                         },
                         new
                         {
@@ -2569,7 +2751,8 @@ Canada
                             Name = "Le Super Krissy",
                             OwnerFirstName = "Marlon",
                             OwnerLastName = "Steinstrand",
-                            PhoneNumber = "765-847-5626"
+                            PhoneNumber = "765-847-5626",
+                            Published = false
                         },
                         new
                         {
@@ -2583,7 +2766,8 @@ Canada
                             Name = "Le Super Marlon",
                             OwnerFirstName = "Palmira",
                             OwnerLastName = "Flatwood",
-                            PhoneNumber = "383-286-1231"
+                            PhoneNumber = "383-286-1231",
+                            Published = false
                         },
                         new
                         {
@@ -2597,7 +2781,8 @@ Canada
                             Name = "Le Super Palmira",
                             OwnerFirstName = "Ralph",
                             OwnerLastName = "Vadtälje",
-                            PhoneNumber = "728-445-4644"
+                            PhoneNumber = "728-445-4644",
+                            Published = false
                         },
                         new
                         {
@@ -2611,7 +2796,8 @@ Canada
                             Name = "Le Super Ralph",
                             OwnerFirstName = "Eugenio",
                             OwnerLastName = "Uummanqaq",
-                            PhoneNumber = "356-574-8357"
+                            PhoneNumber = "356-574-8357",
+                            Published = false
                         },
                         new
                         {
@@ -2625,7 +2811,8 @@ Canada
                             Name = "Le Super Eugenio",
                             OwnerFirstName = "Troy",
                             OwnerLastName = "Lystrup",
-                            PhoneNumber = "774-733-3761"
+                            PhoneNumber = "774-733-3761",
+                            Published = false
                         },
                         new
                         {
@@ -2639,7 +2826,8 @@ Canada
                             Name = "Le Super Troy",
                             OwnerFirstName = "Tad",
                             OwnerLastName = "Ixtatla",
-                            PhoneNumber = "311-162-7374"
+                            PhoneNumber = "311-162-7374",
+                            Published = false
                         },
                         new
                         {
@@ -2653,7 +2841,8 @@ Canada
                             Name = "Le Super Tad",
                             OwnerFirstName = "Vi",
                             OwnerLastName = "Haapsa",
-                            PhoneNumber = "847-321-2787"
+                            PhoneNumber = "847-321-2787",
+                            Published = false
                         },
                         new
                         {
@@ -2667,7 +2856,8 @@ Canada
                             Name = "Le Super Vi",
                             OwnerFirstName = "Sherise",
                             OwnerLastName = "Guasabaro",
-                            PhoneNumber = "464-468-6312"
+                            PhoneNumber = "464-468-6312",
+                            Published = false
                         },
                         new
                         {
@@ -2681,7 +2871,8 @@ Canada
                             Name = "Le Super Sherise",
                             OwnerFirstName = "Alejandro",
                             OwnerLastName = "Mõisali",
-                            PhoneNumber = "882-617-2725"
+                            PhoneNumber = "882-617-2725",
+                            Published = false
                         },
                         new
                         {
@@ -2695,7 +2886,8 @@ Canada
                             Name = "Le Super Alejandro",
                             OwnerFirstName = "Liliana",
                             OwnerLastName = "Boswood",
-                            PhoneNumber = "438-856-5338"
+                            PhoneNumber = "438-856-5338",
+                            Published = false
                         },
                         new
                         {
@@ -2709,7 +2901,8 @@ Canada
                             Name = "Le Super Liliana",
                             OwnerFirstName = "Marcie",
                             OwnerLastName = "Nittinen",
-                            PhoneNumber = "855-185-1743"
+                            PhoneNumber = "855-185-1743",
+                            Published = false
                         },
                         new
                         {
@@ -2723,7 +2916,8 @@ Canada
                             Name = "Le Super Marcie",
                             OwnerFirstName = "Mariella",
                             OwnerLastName = "Dragstrup",
-                            PhoneNumber = "573-344-4356"
+                            PhoneNumber = "573-344-4356",
+                            Published = false
                         },
                         new
                         {
@@ -2737,7 +2931,8 @@ Canada
                             Name = "Le Super Mariella",
                             OwnerFirstName = "Berniece",
                             OwnerLastName = "Ólafsholt",
-                            PhoneNumber = "128-583-8761"
+                            PhoneNumber = "128-583-8761",
+                            Published = false
                         },
                         new
                         {
@@ -2751,7 +2946,8 @@ Canada
                             Name = "Le Super Berniece",
                             OwnerFirstName = "Marcella",
                             OwnerLastName = "Kalvee",
-                            PhoneNumber = "546-732-4374"
+                            PhoneNumber = "546-732-4374",
+                            Published = false
                         },
                         new
                         {
@@ -2765,7 +2961,8 @@ Canada
                             Name = "Le Super Marcella",
                             OwnerFirstName = "Sherlene",
                             OwnerLastName = "Salkile",
-                            PhoneNumber = "163-871-7787"
+                            PhoneNumber = "163-871-7787",
+                            Published = false
                         },
                         new
                         {
@@ -2779,7 +2976,8 @@ Canada
                             Name = "Le Super Sherlene",
                             OwnerFirstName = "Antonetta",
                             OwnerLastName = "Rovanola",
-                            PhoneNumber = "511-228-3312"
+                            PhoneNumber = "511-228-3312",
+                            Published = false
                         },
                         new
                         {
@@ -2793,7 +2991,8 @@ Canada
                             Name = "Le Super Antonetta",
                             OwnerFirstName = "Tyson",
                             OwnerLastName = "Balniai",
-                            PhoneNumber = "137-467-6725"
+                            PhoneNumber = "137-467-6725",
+                            Published = false
                         },
                         new
                         {
@@ -2807,7 +3006,8 @@ Canada
                             Name = "Le Super Tyson",
                             OwnerFirstName = "Derick",
                             OwnerLastName = "Ísafholt",
-                            PhoneNumber = "654-526-2338"
+                            PhoneNumber = "654-526-2338",
+                            Published = false
                         },
                         new
                         {
@@ -2821,7 +3021,8 @@ Canada
                             Name = "Le Super Derick",
                             OwnerFirstName = "Sheridan",
                             OwnerLastName = "Hammervåg",
-                            PhoneNumber = "282-755-5743"
+                            PhoneNumber = "282-755-5743",
+                            Published = false
                         },
                         new
                         {
@@ -2835,7 +3036,8 @@ Canada
                             Name = "Le Super Sheridan",
                             OwnerFirstName = "Debi",
                             OwnerLastName = "Kulli",
-                            PhoneNumber = "627-114-1356"
+                            PhoneNumber = "627-114-1356",
+                            Published = false
                         });
                 });
 
@@ -2872,12 +3074,6772 @@ Canada
                     b.HasIndex("BuildingId");
 
                     b.ToTable("RentingLots");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BuildingId = 1,
+                            LeaseLength = 22,
+                            NumberOfRooms = 9,
+                            Price = 454.67m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BuildingId = 2,
+                            LeaseLength = 43,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 837.46m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BuildingId = 2,
+                            LeaseLength = 6,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 155.74m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BuildingId = 2,
+                            LeaseLength = 18,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 374.01m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            BuildingId = 2,
+                            LeaseLength = 30,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 592.29m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 6,
+                            BuildingId = 2,
+                            LeaseLength = 41,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 810.57m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 7,
+                            BuildingId = 2,
+                            LeaseLength = 4,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 128.85m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 8,
+                            BuildingId = 2,
+                            LeaseLength = 16,
+                            LotNumber = "7",
+                            NumberOfRooms = 8,
+                            Price = 347.13m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 9,
+                            BuildingId = 3,
+                            LeaseLength = 15,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 320.24m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 10,
+                            BuildingId = 3,
+                            LeaseLength = 27,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 538.52m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 11,
+                            BuildingId = 4,
+                            LeaseLength = 36,
+                            NumberOfRooms = 3,
+                            Price = 703.02m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 12,
+                            BuildingId = 5,
+                            LeaseLength = 7,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 185.81m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 13,
+                            BuildingId = 5,
+                            LeaseLength = 19,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 404.08m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 14,
+                            BuildingId = 5,
+                            LeaseLength = 31,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 622.36m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 15,
+                            BuildingId = 6,
+                            LeaseLength = 28,
+                            NumberOfRooms = 1,
+                            Price = 568.59m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 16,
+                            BuildingId = 7,
+                            LeaseLength = 49,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 951.37m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 17,
+                            BuildingId = 7,
+                            LeaseLength = 12,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 269.65m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 18,
+                            BuildingId = 7,
+                            LeaseLength = 24,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 487.93m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 19,
+                            BuildingId = 8,
+                            LeaseLength = 21,
+                            NumberOfRooms = 9,
+                            Price = 434.15m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 20,
+                            BuildingId = 9,
+                            LeaseLength = 42,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 816.94m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 21,
+                            BuildingId = 9,
+                            LeaseLength = 5,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 135.22m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 22,
+                            BuildingId = 9,
+                            LeaseLength = 16,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 353.49m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 23,
+                            BuildingId = 9,
+                            LeaseLength = 28,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 571.77m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 24,
+                            BuildingId = 10,
+                            LeaseLength = 14,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 299.72m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 25,
+                            BuildingId = 10,
+                            LeaseLength = 25,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 518m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 26,
+                            BuildingId = 10,
+                            LeaseLength = 37,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 736.28m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 27,
+                            BuildingId = 10,
+                            LeaseLength = 49,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 954.55m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 28,
+                            BuildingId = 10,
+                            LeaseLength = 12,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 272.83m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 29,
+                            BuildingId = 10,
+                            LeaseLength = 24,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 491.11m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 30,
+                            BuildingId = 10,
+                            LeaseLength = 36,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 709.39m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 31,
+                            BuildingId = 10,
+                            LeaseLength = 48,
+                            LotNumber = "8",
+                            NumberOfRooms = 5,
+                            Price = 927.67m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 32,
+                            BuildingId = 10,
+                            LeaseLength = 11,
+                            LotNumber = "9",
+                            NumberOfRooms = 7,
+                            Price = 245.95m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 33,
+                            BuildingId = 11,
+                            LeaseLength = 34,
+                            NumberOfRooms = 2,
+                            Price = 682.5m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 34,
+                            BuildingId = 12,
+                            LeaseLength = 6,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 165.29m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 35,
+                            BuildingId = 12,
+                            LeaseLength = 18,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 383.56m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 36,
+                            BuildingId = 12,
+                            LeaseLength = 30,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 601.84m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 37,
+                            BuildingId = 12,
+                            LeaseLength = 42,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 820.12m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 38,
+                            BuildingId = 12,
+                            LeaseLength = 5,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 138.4m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 39,
+                            BuildingId = 12,
+                            LeaseLength = 17,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 356.68m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 40,
+                            BuildingId = 12,
+                            LeaseLength = 29,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 574.96m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 41,
+                            BuildingId = 12,
+                            LeaseLength = 40,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 793.23m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 42,
+                            BuildingId = 12,
+                            LeaseLength = 3,
+                            LotNumber = "9",
+                            NumberOfRooms = 6,
+                            Price = 111.51m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 43,
+                            BuildingId = 13,
+                            LeaseLength = 27,
+                            NumberOfRooms = 1,
+                            Price = 548.07m,
+                            RentingLotType = 2,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 44,
+                            BuildingId = 15,
+                            LeaseLength = 20,
+                            NumberOfRooms = 9,
+                            Price = 413.63m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 45,
+                            BuildingId = 17,
+                            LeaseLength = 12,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 279.2m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 46,
+                            BuildingId = 17,
+                            LeaseLength = 24,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 497.48m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 47,
+                            BuildingId = 17,
+                            LeaseLength = 36,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 715.76m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 48,
+                            BuildingId = 17,
+                            LeaseLength = 48,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 934.03m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 49,
+                            BuildingId = 17,
+                            LeaseLength = 11,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 252.31m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 50,
+                            BuildingId = 17,
+                            LeaseLength = 23,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 470.59m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 51,
+                            BuildingId = 18,
+                            LeaseLength = 33,
+                            NumberOfRooms = 2,
+                            Price = 661.98m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 52,
+                            BuildingId = 19,
+                            LeaseLength = 5,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 144.76m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 53,
+                            BuildingId = 19,
+                            LeaseLength = 17,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 363.04m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 54,
+                            BuildingId = 19,
+                            LeaseLength = 29,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 581.32m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 55,
+                            BuildingId = 19,
+                            LeaseLength = 41,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 799.6m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 56,
+                            BuildingId = 19,
+                            LeaseLength = 4,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 117.88m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 57,
+                            BuildingId = 19,
+                            LeaseLength = 16,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 336.16m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 58,
+                            BuildingId = 20,
+                            LeaseLength = 26,
+                            NumberOfRooms = 1,
+                            Price = 527.55m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 59,
+                            BuildingId = 21,
+                            LeaseLength = 47,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 910.33m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 60,
+                            BuildingId = 21,
+                            LeaseLength = 10,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 228.61m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 61,
+                            BuildingId = 21,
+                            LeaseLength = 22,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 446.89m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 62,
+                            BuildingId = 21,
+                            LeaseLength = 33,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 665.17m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 63,
+                            BuildingId = 21,
+                            LeaseLength = 45,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 883.44m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 64,
+                            BuildingId = 21,
+                            LeaseLength = 8,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 201.72m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 65,
+                            BuildingId = 22,
+                            LeaseLength = 19,
+                            NumberOfRooms = 9,
+                            Price = 393.11m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 66,
+                            BuildingId = 23,
+                            LeaseLength = 39,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 775.9m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 67,
+                            BuildingId = 23,
+                            LeaseLength = 2,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 994.17m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 68,
+                            BuildingId = 23,
+                            LeaseLength = 14,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 312.45m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 69,
+                            BuildingId = 23,
+                            LeaseLength = 26,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 530.73m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 70,
+                            BuildingId = 23,
+                            LeaseLength = 38,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 749.01m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 71,
+                            BuildingId = 23,
+                            LeaseLength = 1,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 967.29m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 72,
+                            BuildingId = 23,
+                            LeaseLength = 13,
+                            LotNumber = "7",
+                            NumberOfRooms = 7,
+                            Price = 285.57m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 73,
+                            BuildingId = 24,
+                            LeaseLength = 11,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 258.68m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 74,
+                            BuildingId = 24,
+                            LeaseLength = 23,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 476.96m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 75,
+                            BuildingId = 25,
+                            LeaseLength = 32,
+                            NumberOfRooms = 2,
+                            Price = 641.46m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 76,
+                            BuildingId = 26,
+                            LeaseLength = 4,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 124.24m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 77,
+                            BuildingId = 26,
+                            LeaseLength = 16,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 342.52m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 78,
+                            BuildingId = 26,
+                            LeaseLength = 28,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 560.8m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 79,
+                            BuildingId = 27,
+                            LeaseLength = 25,
+                            NumberOfRooms = 1,
+                            Price = 507.03m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 80,
+                            BuildingId = 28,
+                            LeaseLength = 46,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 889.81m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 81,
+                            BuildingId = 28,
+                            LeaseLength = 9,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 208.09m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 82,
+                            BuildingId = 28,
+                            LeaseLength = 20,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 426.37m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 83,
+                            BuildingId = 29,
+                            LeaseLength = 18,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 372.59m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 84,
+                            BuildingId = 29,
+                            LeaseLength = 29,
+                            LotNumber = "2",
+                            NumberOfRooms = 2,
+                            Price = 590.87m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 85,
+                            BuildingId = 29,
+                            LeaseLength = 41,
+                            LotNumber = "3",
+                            NumberOfRooms = 4,
+                            Price = 809.15m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 86,
+                            BuildingId = 29,
+                            LeaseLength = 4,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 127.43m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 87,
+                            BuildingId = 29,
+                            LeaseLength = 16,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 345.71m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 88,
+                            BuildingId = 29,
+                            LeaseLength = 28,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 563.98m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 89,
+                            BuildingId = 29,
+                            LeaseLength = 40,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 782.26m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 90,
+                            BuildingId = 29,
+                            LeaseLength = 3,
+                            LotNumber = "8",
+                            NumberOfRooms = 6,
+                            Price = 100.54m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 91,
+                            BuildingId = 30,
+                            LeaseLength = 38,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 755.38m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 92,
+                            BuildingId = 30,
+                            LeaseLength = 1,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 973.65m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 93,
+                            BuildingId = 30,
+                            LeaseLength = 13,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 291.93m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 94,
+                            BuildingId = 31,
+                            LeaseLength = 10,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 238.16m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 95,
+                            BuildingId = 31,
+                            LeaseLength = 22,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 456.44m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 96,
+                            BuildingId = 31,
+                            LeaseLength = 34,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 674.71m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 97,
+                            BuildingId = 31,
+                            LeaseLength = 46,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 892.99m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 98,
+                            BuildingId = 31,
+                            LeaseLength = 9,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 211.27m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 99,
+                            BuildingId = 31,
+                            LeaseLength = 21,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 429.55m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 100,
+                            BuildingId = 31,
+                            LeaseLength = 33,
+                            LotNumber = "7",
+                            NumberOfRooms = 2,
+                            Price = 647.83m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 101,
+                            BuildingId = 31,
+                            LeaseLength = 44,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 866.11m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 102,
+                            BuildingId = 31,
+                            LeaseLength = 7,
+                            LotNumber = "9",
+                            NumberOfRooms = 6,
+                            Price = 184.38m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 103,
+                            BuildingId = 32,
+                            LeaseLength = 31,
+                            NumberOfRooms = 2,
+                            Price = 620.94m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 104,
+                            BuildingId = 33,
+                            LeaseLength = 3,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 103.72m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 105,
+                            BuildingId = 33,
+                            LeaseLength = 15,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 322m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 106,
+                            BuildingId = 33,
+                            LeaseLength = 27,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 540.28m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 107,
+                            BuildingId = 33,
+                            LeaseLength = 39,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 758.56m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 108,
+                            BuildingId = 33,
+                            LeaseLength = 1,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 976.84m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 109,
+                            BuildingId = 33,
+                            LeaseLength = 13,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 295.12m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 110,
+                            BuildingId = 33,
+                            LeaseLength = 25,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 513.39m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 111,
+                            BuildingId = 33,
+                            LeaseLength = 37,
+                            LotNumber = "8",
+                            NumberOfRooms = 3,
+                            Price = 731.67m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 112,
+                            BuildingId = 33,
+                            LeaseLength = 49,
+                            LotNumber = "9",
+                            NumberOfRooms = 5,
+                            Price = 949.95m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 113,
+                            BuildingId = 34,
+                            LeaseLength = 24,
+                            NumberOfRooms = 9,
+                            Price = 486.51m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 114,
+                            BuildingId = 36,
+                            LeaseLength = 16,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 352.07m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 115,
+                            BuildingId = 36,
+                            LeaseLength = 28,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 570.35m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 116,
+                            BuildingId = 36,
+                            LeaseLength = 40,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 788.63m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 117,
+                            BuildingId = 36,
+                            LeaseLength = 3,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 106.91m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 118,
+                            BuildingId = 36,
+                            LeaseLength = 15,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 325.19m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 119,
+                            BuildingId = 38,
+                            LeaseLength = 9,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 217.64m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 120,
+                            BuildingId = 38,
+                            LeaseLength = 21,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 435.92m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 121,
+                            BuildingId = 38,
+                            LeaseLength = 33,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 654.19m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 122,
+                            BuildingId = 38,
+                            LeaseLength = 45,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 872.47m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 123,
+                            BuildingId = 38,
+                            LeaseLength = 8,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 190.75m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 124,
+                            BuildingId = 39,
+                            LeaseLength = 30,
+                            NumberOfRooms = 2,
+                            Price = 600.42m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 125,
+                            BuildingId = 40,
+                            LeaseLength = 2,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 983.2m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 126,
+                            BuildingId = 40,
+                            LeaseLength = 14,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 301.48m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 127,
+                            BuildingId = 40,
+                            LeaseLength = 26,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 519.76m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 128,
+                            BuildingId = 40,
+                            LeaseLength = 37,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 738.04m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 129,
+                            BuildingId = 40,
+                            LeaseLength = 49,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 956.32m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 130,
+                            BuildingId = 40,
+                            LeaseLength = 12,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 274.59m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 131,
+                            BuildingId = 41,
+                            LeaseLength = 23,
+                            NumberOfRooms = 9,
+                            Price = 465.99m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 132,
+                            BuildingId = 42,
+                            LeaseLength = 43,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 848.77m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 133,
+                            BuildingId = 42,
+                            LeaseLength = 6,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 167.05m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 134,
+                            BuildingId = 42,
+                            LeaseLength = 18,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 385.33m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 135,
+                            BuildingId = 42,
+                            LeaseLength = 30,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 603.6m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 136,
+                            BuildingId = 42,
+                            LeaseLength = 42,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 821.88m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 137,
+                            BuildingId = 42,
+                            LeaseLength = 5,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 140.16m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 138,
+                            BuildingId = 43,
+                            LeaseLength = 15,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 331.55m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 139,
+                            BuildingId = 44,
+                            LeaseLength = 36,
+                            NumberOfRooms = 3,
+                            Price = 714.33m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 140,
+                            BuildingId = 45,
+                            LeaseLength = 8,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 197.12m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 141,
+                            BuildingId = 45,
+                            LeaseLength = 20,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 415.4m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 142,
+                            BuildingId = 46,
+                            LeaseLength = 29,
+                            NumberOfRooms = 1,
+                            Price = 579.9m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 143,
+                            BuildingId = 47,
+                            LeaseLength = 1,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 962.68m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 144,
+                            BuildingId = 47,
+                            LeaseLength = 13,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 280.96m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 145,
+                            BuildingId = 48,
+                            LeaseLength = 22,
+                            NumberOfRooms = 9,
+                            Price = 445.47m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 146,
+                            BuildingId = 49,
+                            LeaseLength = 42,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 828.25m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 147,
+                            BuildingId = 49,
+                            LeaseLength = 5,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 146.53m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 148,
+                            BuildingId = 49,
+                            LeaseLength = 17,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 364.8m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 149,
+                            BuildingId = 50,
+                            LeaseLength = 14,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 311.03m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 150,
+                            BuildingId = 50,
+                            LeaseLength = 26,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 529.31m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 151,
+                            BuildingId = 50,
+                            LeaseLength = 38,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 747.59m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 152,
+                            BuildingId = 50,
+                            LeaseLength = 1,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 965.87m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 153,
+                            BuildingId = 50,
+                            LeaseLength = 13,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 284.14m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 154,
+                            BuildingId = 50,
+                            LeaseLength = 25,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 502.42m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 155,
+                            BuildingId = 50,
+                            LeaseLength = 36,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 720.7m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 156,
+                            BuildingId = 50,
+                            LeaseLength = 48,
+                            LotNumber = "8",
+                            NumberOfRooms = 5,
+                            Price = 938.98m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 157,
+                            BuildingId = 51,
+                            LeaseLength = 35,
+                            NumberOfRooms = 3,
+                            Price = 693.81m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 158,
+                            BuildingId = 52,
+                            LeaseLength = 7,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 176.6m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 159,
+                            BuildingId = 52,
+                            LeaseLength = 19,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 394.87m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 160,
+                            BuildingId = 52,
+                            LeaseLength = 31,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 613.15m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 161,
+                            BuildingId = 52,
+                            LeaseLength = 43,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 831.43m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 162,
+                            BuildingId = 52,
+                            LeaseLength = 5,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 149.71m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 163,
+                            BuildingId = 52,
+                            LeaseLength = 17,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 367.99m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 164,
+                            BuildingId = 52,
+                            LeaseLength = 29,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 586.27m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 165,
+                            BuildingId = 52,
+                            LeaseLength = 41,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 804.54m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 166,
+                            BuildingId = 53,
+                            LeaseLength = 28,
+                            NumberOfRooms = 1,
+                            Price = 559.38m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 167,
+                            BuildingId = 54,
+                            LeaseLength = 49,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 942.16m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 168,
+                            BuildingId = 54,
+                            LeaseLength = 11,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 260.44m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 169,
+                            BuildingId = 54,
+                            LeaseLength = 23,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 478.72m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 170,
+                            BuildingId = 54,
+                            LeaseLength = 35,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 697m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 171,
+                            BuildingId = 54,
+                            LeaseLength = 47,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 915.27m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 172,
+                            BuildingId = 54,
+                            LeaseLength = 10,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 233.55m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 173,
+                            BuildingId = 54,
+                            LeaseLength = 22,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 451.83m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 174,
+                            BuildingId = 54,
+                            LeaseLength = 34,
+                            LotNumber = "8",
+                            NumberOfRooms = 2,
+                            Price = 670.11m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 175,
+                            BuildingId = 54,
+                            LeaseLength = 46,
+                            LotNumber = "9",
+                            NumberOfRooms = 4,
+                            Price = 888.39m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 176,
+                            BuildingId = 55,
+                            LeaseLength = 20,
+                            NumberOfRooms = 9,
+                            Price = 424.94m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 177,
+                            BuildingId = 56,
+                            LeaseLength = 41,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 807.73m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 178,
+                            BuildingId = 56,
+                            LeaseLength = 4,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 126.01m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 179,
+                            BuildingId = 56,
+                            LeaseLength = 16,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 344.28m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 180,
+                            BuildingId = 56,
+                            LeaseLength = 28,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 562.56m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 181,
+                            BuildingId = 56,
+                            LeaseLength = 40,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 780.84m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 182,
+                            BuildingId = 56,
+                            LeaseLength = 3,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 999.12m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 183,
+                            BuildingId = 56,
+                            LeaseLength = 15,
+                            LotNumber = "7",
+                            NumberOfRooms = 8,
+                            Price = 317.4m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 184,
+                            BuildingId = 56,
+                            LeaseLength = 26,
+                            LotNumber = "8",
+                            NumberOfRooms = 1,
+                            Price = 535.68m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 185,
+                            BuildingId = 56,
+                            LeaseLength = 38,
+                            LotNumber = "9",
+                            NumberOfRooms = 3,
+                            Price = 753.95m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 186,
+                            BuildingId = 57,
+                            LeaseLength = 13,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 290.51m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 187,
+                            BuildingId = 57,
+                            LeaseLength = 25,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 508.79m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 188,
+                            BuildingId = 57,
+                            LeaseLength = 37,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 727.07m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 189,
+                            BuildingId = 57,
+                            LeaseLength = 49,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 945.34m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 190,
+                            BuildingId = 57,
+                            LeaseLength = 12,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 263.62m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 191,
+                            BuildingId = 59,
+                            LeaseLength = 6,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 156.08m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 192,
+                            BuildingId = 59,
+                            LeaseLength = 18,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 374.35m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 193,
+                            BuildingId = 59,
+                            LeaseLength = 30,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 592.63m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 194,
+                            BuildingId = 59,
+                            LeaseLength = 41,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 810.91m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 195,
+                            BuildingId = 59,
+                            LeaseLength = 4,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 129.19m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 196,
+                            BuildingId = 61,
+                            LeaseLength = 47,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 921.64m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 197,
+                            BuildingId = 61,
+                            LeaseLength = 10,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 239.92m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 198,
+                            BuildingId = 61,
+                            LeaseLength = 22,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 458.2m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 199,
+                            BuildingId = 61,
+                            LeaseLength = 34,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 676.48m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 200,
+                            BuildingId = 61,
+                            LeaseLength = 46,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 894.75m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 201,
+                            BuildingId = 62,
+                            LeaseLength = 19,
+                            NumberOfRooms = 9,
+                            Price = 404.42m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 202,
+                            BuildingId = 63,
+                            LeaseLength = 40,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 787.21m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 203,
+                            BuildingId = 63,
+                            LeaseLength = 3,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 105.49m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 204,
+                            BuildingId = 63,
+                            LeaseLength = 15,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 323.76m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 205,
+                            BuildingId = 63,
+                            LeaseLength = 27,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 542.04m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 206,
+                            BuildingId = 63,
+                            LeaseLength = 39,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 760.32m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 207,
+                            BuildingId = 63,
+                            LeaseLength = 2,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 978.6m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 208,
+                            BuildingId = 64,
+                            LeaseLength = 12,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 269.99m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 209,
+                            BuildingId = 65,
+                            LeaseLength = 33,
+                            NumberOfRooms = 2,
+                            Price = 652.77m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 210,
+                            BuildingId = 66,
+                            LeaseLength = 5,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 135.56m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 211,
+                            BuildingId = 66,
+                            LeaseLength = 17,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 353.83m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 212,
+                            BuildingId = 67,
+                            LeaseLength = 25,
+                            NumberOfRooms = 1,
+                            Price = 518.34m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 213,
+                            BuildingId = 68,
+                            LeaseLength = 46,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 901.12m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 214,
+                            BuildingId = 68,
+                            LeaseLength = 9,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 219.4m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 215,
+                            BuildingId = 69,
+                            LeaseLength = 18,
+                            NumberOfRooms = 8,
+                            Price = 383.9m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 216,
+                            BuildingId = 70,
+                            LeaseLength = 39,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 766.69m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 217,
+                            BuildingId = 70,
+                            LeaseLength = 2,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 984.96m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 218,
+                            BuildingId = 71,
+                            LeaseLength = 11,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 249.47m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 219,
+                            BuildingId = 71,
+                            LeaseLength = 23,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 467.75m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 220,
+                            BuildingId = 71,
+                            LeaseLength = 35,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 686.03m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 221,
+                            BuildingId = 71,
+                            LeaseLength = 46,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 904.3m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 222,
+                            BuildingId = 71,
+                            LeaseLength = 9,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 222.58m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 223,
+                            BuildingId = 71,
+                            LeaseLength = 21,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 440.86m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 224,
+                            BuildingId = 71,
+                            LeaseLength = 33,
+                            LotNumber = "7",
+                            NumberOfRooms = 2,
+                            Price = 659.14m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 225,
+                            BuildingId = 71,
+                            LeaseLength = 45,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 877.42m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 226,
+                            BuildingId = 72,
+                            LeaseLength = 32,
+                            NumberOfRooms = 2,
+                            Price = 632.25m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 227,
+                            BuildingId = 73,
+                            LeaseLength = 4,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 115.03m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 228,
+                            BuildingId = 73,
+                            LeaseLength = 15,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 333.31m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 229,
+                            BuildingId = 73,
+                            LeaseLength = 27,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 551.59m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 230,
+                            BuildingId = 73,
+                            LeaseLength = 39,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 769.87m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 231,
+                            BuildingId = 73,
+                            LeaseLength = 2,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 988.15m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 232,
+                            BuildingId = 73,
+                            LeaseLength = 14,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 306.43m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 233,
+                            BuildingId = 73,
+                            LeaseLength = 26,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 524.7m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 234,
+                            BuildingId = 73,
+                            LeaseLength = 38,
+                            LotNumber = "8",
+                            NumberOfRooms = 3,
+                            Price = 742.98m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 235,
+                            BuildingId = 74,
+                            LeaseLength = 24,
+                            NumberOfRooms = 1,
+                            Price = 497.82m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 236,
+                            BuildingId = 75,
+                            LeaseLength = 45,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 880.6m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 237,
+                            BuildingId = 75,
+                            LeaseLength = 8,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 198.88m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 238,
+                            BuildingId = 75,
+                            LeaseLength = 20,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 417.16m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 239,
+                            BuildingId = 75,
+                            LeaseLength = 32,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 635.43m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 240,
+                            BuildingId = 75,
+                            LeaseLength = 44,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 853.71m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 241,
+                            BuildingId = 75,
+                            LeaseLength = 7,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 171.99m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 242,
+                            BuildingId = 75,
+                            LeaseLength = 19,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 390.27m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 243,
+                            BuildingId = 75,
+                            LeaseLength = 30,
+                            LotNumber = "8",
+                            NumberOfRooms = 2,
+                            Price = 608.55m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 244,
+                            BuildingId = 75,
+                            LeaseLength = 42,
+                            LotNumber = "9",
+                            NumberOfRooms = 4,
+                            Price = 826.83m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 245,
+                            BuildingId = 76,
+                            LeaseLength = 17,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 363.38m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 246,
+                            BuildingId = 76,
+                            LeaseLength = 29,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 581.66m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 247,
+                            BuildingId = 76,
+                            LeaseLength = 41,
+                            LotNumber = "3",
+                            NumberOfRooms = 4,
+                            Price = 799.94m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 248,
+                            BuildingId = 76,
+                            LeaseLength = 4,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 118.22m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 249,
+                            BuildingId = 77,
+                            LeaseLength = 38,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 746.17m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 250,
+                            BuildingId = 77,
+                            LeaseLength = 1,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 964.44m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 251,
+                            BuildingId = 77,
+                            LeaseLength = 13,
+                            LotNumber = "3",
+                            NumberOfRooms = 7,
+                            Price = 282.72m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 252,
+                            BuildingId = 77,
+                            LeaseLength = 25,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 501m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 253,
+                            BuildingId = 77,
+                            LeaseLength = 36,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 719.28m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 254,
+                            BuildingId = 77,
+                            LeaseLength = 48,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 937.56m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 255,
+                            BuildingId = 77,
+                            LeaseLength = 11,
+                            LotNumber = "7",
+                            NumberOfRooms = 7,
+                            Price = 255.84m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 256,
+                            BuildingId = 77,
+                            LeaseLength = 23,
+                            LotNumber = "8",
+                            NumberOfRooms = 9,
+                            Price = 474.11m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 257,
+                            BuildingId = 77,
+                            LeaseLength = 35,
+                            LotNumber = "9",
+                            NumberOfRooms = 3,
+                            Price = 692.39m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 258,
+                            BuildingId = 78,
+                            LeaseLength = 10,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 228.95m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 259,
+                            BuildingId = 78,
+                            LeaseLength = 22,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 447.23m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 260,
+                            BuildingId = 78,
+                            LeaseLength = 33,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 665.5m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 261,
+                            BuildingId = 78,
+                            LeaseLength = 45,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 883.78m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 262,
+                            BuildingId = 79,
+                            LeaseLength = 31,
+                            NumberOfRooms = 2,
+                            Price = 611.73m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 263,
+                            BuildingId = 80,
+                            LeaseLength = 2,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 994.51m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 264,
+                            BuildingId = 80,
+                            LeaseLength = 14,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 312.79m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 265,
+                            BuildingId = 80,
+                            LeaseLength = 26,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 531.07m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 266,
+                            BuildingId = 80,
+                            LeaseLength = 38,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 749.35m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 267,
+                            BuildingId = 80,
+                            LeaseLength = 1,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 967.63m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 268,
+                            BuildingId = 82,
+                            LeaseLength = 44,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 860.08m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 269,
+                            BuildingId = 82,
+                            LeaseLength = 7,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 178.36m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 270,
+                            BuildingId = 82,
+                            LeaseLength = 19,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 396.64m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 271,
+                            BuildingId = 82,
+                            LeaseLength = 31,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 614.91m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 272,
+                            BuildingId = 82,
+                            LeaseLength = 43,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 833.19m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 273,
+                            BuildingId = 84,
+                            LeaseLength = 37,
+                            NumberOfRooms = 3,
+                            Price = 725.64m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 274,
+                            BuildingId = 85,
+                            LeaseLength = 9,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 208.43m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 275,
+                            BuildingId = 86,
+                            LeaseLength = 29,
+                            NumberOfRooms = 2,
+                            Price = 591.21m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 276,
+                            BuildingId = 87,
+                            LeaseLength = 1,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 973.99m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 277,
+                            BuildingId = 88,
+                            LeaseLength = 22,
+                            NumberOfRooms = 9,
+                            Price = 456.78m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 278,
+                            BuildingId = 89,
+                            LeaseLength = 43,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 839.56m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 279,
+                            BuildingId = 89,
+                            LeaseLength = 6,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 157.84m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 280,
+                            BuildingId = 90,
+                            LeaseLength = 15,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 322.34m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 281,
+                            BuildingId = 90,
+                            LeaseLength = 27,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 540.62m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 282,
+                            BuildingId = 90,
+                            LeaseLength = 39,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 758.9m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 283,
+                            BuildingId = 90,
+                            LeaseLength = 1,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 977.18m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 284,
+                            BuildingId = 90,
+                            LeaseLength = 13,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 295.45m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 285,
+                            BuildingId = 90,
+                            LeaseLength = 25,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 513.73m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 286,
+                            BuildingId = 90,
+                            LeaseLength = 37,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 732.01m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 287,
+                            BuildingId = 91,
+                            LeaseLength = 36,
+                            NumberOfRooms = 3,
+                            Price = 705.12m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 288,
+                            BuildingId = 92,
+                            LeaseLength = 7,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 187.91m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 289,
+                            BuildingId = 92,
+                            LeaseLength = 19,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 406.19m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 290,
+                            BuildingId = 92,
+                            LeaseLength = 31,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 624.46m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 291,
+                            BuildingId = 92,
+                            LeaseLength = 43,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 842.74m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 292,
+                            BuildingId = 92,
+                            LeaseLength = 6,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 161.02m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 293,
+                            BuildingId = 92,
+                            LeaseLength = 18,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 379.3m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 294,
+                            BuildingId = 92,
+                            LeaseLength = 30,
+                            LotNumber = "7",
+                            NumberOfRooms = 2,
+                            Price = 597.58m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 295,
+                            BuildingId = 93,
+                            LeaseLength = 28,
+                            NumberOfRooms = 1,
+                            Price = 570.69m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 296,
+                            BuildingId = 94,
+                            LeaseLength = 49,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 953.47m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 297,
+                            BuildingId = 94,
+                            LeaseLength = 12,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 271.75m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 298,
+                            BuildingId = 94,
+                            LeaseLength = 24,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 490.03m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 299,
+                            BuildingId = 94,
+                            LeaseLength = 36,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 708.31m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 300,
+                            BuildingId = 94,
+                            LeaseLength = 48,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 926.59m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 301,
+                            BuildingId = 94,
+                            LeaseLength = 11,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 244.86m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 302,
+                            BuildingId = 94,
+                            LeaseLength = 22,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 463.14m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 303,
+                            BuildingId = 94,
+                            LeaseLength = 34,
+                            LotNumber = "8",
+                            NumberOfRooms = 2,
+                            Price = 681.42m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 304,
+                            BuildingId = 95,
+                            LeaseLength = 21,
+                            NumberOfRooms = 9,
+                            Price = 436.26m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 305,
+                            BuildingId = 96,
+                            LeaseLength = 42,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 819.04m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 306,
+                            BuildingId = 96,
+                            LeaseLength = 5,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 137.32m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 307,
+                            BuildingId = 96,
+                            LeaseLength = 17,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 355.59m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 308,
+                            BuildingId = 96,
+                            LeaseLength = 28,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 573.87m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 309,
+                            BuildingId = 96,
+                            LeaseLength = 40,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 792.15m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 310,
+                            BuildingId = 96,
+                            LeaseLength = 3,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 110.43m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 311,
+                            BuildingId = 96,
+                            LeaseLength = 15,
+                            LotNumber = "7",
+                            NumberOfRooms = 8,
+                            Price = 328.71m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 312,
+                            BuildingId = 96,
+                            LeaseLength = 27,
+                            LotNumber = "8",
+                            NumberOfRooms = 1,
+                            Price = 546.99m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 313,
+                            BuildingId = 97,
+                            LeaseLength = 14,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 301.82m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 314,
+                            BuildingId = 97,
+                            LeaseLength = 26,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 520.1m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 315,
+                            BuildingId = 97,
+                            LeaseLength = 37,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 738.38m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 316,
+                            BuildingId = 97,
+                            LeaseLength = 49,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 956.66m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 317,
+                            BuildingId = 98,
+                            LeaseLength = 35,
+                            NumberOfRooms = 2,
+                            Price = 684.6m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 318,
+                            BuildingId = 99,
+                            LeaseLength = 6,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 167.39m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 319,
+                            BuildingId = 99,
+                            LeaseLength = 18,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 385.66m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 320,
+                            BuildingId = 99,
+                            LeaseLength = 30,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 603.94m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 321,
+                            BuildingId = 99,
+                            LeaseLength = 42,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 822.22m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 322,
+                            BuildingId = 100,
+                            LeaseLength = 27,
+                            NumberOfRooms = 1,
+                            Price = 550.17m,
+                            RentingLotType = 2,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 323,
+                            BuildingId = 101,
+                            LeaseLength = 48,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 932.95m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 324,
+                            BuildingId = 101,
+                            LeaseLength = 11,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 251.23m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 325,
+                            BuildingId = 101,
+                            LeaseLength = 23,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 469.51m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 326,
+                            BuildingId = 101,
+                            LeaseLength = 35,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 687.79m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 327,
+                            BuildingId = 103,
+                            LeaseLength = 41,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 798.52m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 328,
+                            BuildingId = 103,
+                            LeaseLength = 4,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 116.8m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 329,
+                            BuildingId = 103,
+                            LeaseLength = 15,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 335.07m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 330,
+                            BuildingId = 103,
+                            LeaseLength = 27,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 553.35m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 331,
+                            BuildingId = 103,
+                            LeaseLength = 39,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 771.63m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 332,
+                            BuildingId = 105,
+                            LeaseLength = 33,
+                            NumberOfRooms = 2,
+                            Price = 664.08m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 333,
+                            BuildingId = 106,
+                            LeaseLength = 5,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 146.87m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 334,
+                            BuildingId = 107,
+                            LeaseLength = 26,
+                            NumberOfRooms = 1,
+                            Price = 529.65m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 335,
+                            BuildingId = 108,
+                            LeaseLength = 47,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 912.43m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 336,
+                            BuildingId = 109,
+                            LeaseLength = 19,
+                            NumberOfRooms = 9,
+                            Price = 395.21m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 337,
+                            BuildingId = 110,
+                            LeaseLength = 40,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 778m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 338,
+                            BuildingId = 111,
+                            LeaseLength = 11,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 260.78m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 339,
+                            BuildingId = 111,
+                            LeaseLength = 23,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 479.06m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 340,
+                            BuildingId = 111,
+                            LeaseLength = 35,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 697.34m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 341,
+                            BuildingId = 111,
+                            LeaseLength = 47,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 915.61m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 342,
+                            BuildingId = 111,
+                            LeaseLength = 10,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 233.89m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 343,
+                            BuildingId = 111,
+                            LeaseLength = 22,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 452.17m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 344,
+                            BuildingId = 111,
+                            LeaseLength = 34,
+                            LotNumber = "7",
+                            NumberOfRooms = 2,
+                            Price = 670.45m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 345,
+                            BuildingId = 112,
+                            LeaseLength = 32,
+                            NumberOfRooms = 2,
+                            Price = 643.56m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 346,
+                            BuildingId = 113,
+                            LeaseLength = 4,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 126.35m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 347,
+                            BuildingId = 113,
+                            LeaseLength = 16,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 344.62m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 348,
+                            BuildingId = 113,
+                            LeaseLength = 28,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 562.9m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 349,
+                            BuildingId = 113,
+                            LeaseLength = 40,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 781.18m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 350,
+                            BuildingId = 113,
+                            LeaseLength = 3,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 999.46m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 351,
+                            BuildingId = 113,
+                            LeaseLength = 15,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 317.74m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 352,
+                            BuildingId = 113,
+                            LeaseLength = 26,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 536.01m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 353,
+                            BuildingId = 114,
+                            LeaseLength = 25,
+                            NumberOfRooms = 1,
+                            Price = 509.13m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 354,
+                            BuildingId = 115,
+                            LeaseLength = 46,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 891.91m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 355,
+                            BuildingId = 115,
+                            LeaseLength = 9,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 210.19m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 356,
+                            BuildingId = 115,
+                            LeaseLength = 21,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 428.47m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 357,
+                            BuildingId = 115,
+                            LeaseLength = 32,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 646.75m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 358,
+                            BuildingId = 115,
+                            LeaseLength = 44,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 865.02m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 359,
+                            BuildingId = 115,
+                            LeaseLength = 7,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 183.3m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 360,
+                            BuildingId = 115,
+                            LeaseLength = 19,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 401.58m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 361,
+                            BuildingId = 115,
+                            LeaseLength = 31,
+                            LotNumber = "8",
+                            NumberOfRooms = 2,
+                            Price = 619.86m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 362,
+                            BuildingId = 116,
+                            LeaseLength = 18,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 374.69m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 363,
+                            BuildingId = 116,
+                            LeaseLength = 30,
+                            LotNumber = "2",
+                            NumberOfRooms = 2,
+                            Price = 592.97m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 364,
+                            BuildingId = 116,
+                            LeaseLength = 41,
+                            LotNumber = "3",
+                            NumberOfRooms = 4,
+                            Price = 811.25m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 365,
+                            BuildingId = 117,
+                            LeaseLength = 38,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 757.48m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 366,
+                            BuildingId = 117,
+                            LeaseLength = 1,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 975.75m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 367,
+                            BuildingId = 117,
+                            LeaseLength = 13,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 294.03m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 368,
+                            BuildingId = 117,
+                            LeaseLength = 25,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 512.31m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 369,
+                            BuildingId = 117,
+                            LeaseLength = 37,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 730.59m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 370,
+                            BuildingId = 117,
+                            LeaseLength = 49,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 948.87m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 371,
+                            BuildingId = 117,
+                            LeaseLength = 12,
+                            LotNumber = "7",
+                            NumberOfRooms = 7,
+                            Price = 267.15m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 372,
+                            BuildingId = 117,
+                            LeaseLength = 24,
+                            LotNumber = "8",
+                            NumberOfRooms = 9,
+                            Price = 485.42m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 373,
+                            BuildingId = 118,
+                            LeaseLength = 10,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 240.26m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 374,
+                            BuildingId = 118,
+                            LeaseLength = 22,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 458.54m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 375,
+                            BuildingId = 118,
+                            LeaseLength = 34,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 676.82m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 376,
+                            BuildingId = 119,
+                            LeaseLength = 31,
+                            NumberOfRooms = 2,
+                            Price = 623.04m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 377,
+                            BuildingId = 120,
+                            LeaseLength = 3,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 105.82m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 378,
+                            BuildingId = 120,
+                            LeaseLength = 15,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 324.1m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 379,
+                            BuildingId = 120,
+                            LeaseLength = 27,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 542.38m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 380,
+                            BuildingId = 120,
+                            LeaseLength = 39,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 760.66m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 381,
+                            BuildingId = 121,
+                            LeaseLength = 24,
+                            NumberOfRooms = 9,
+                            Price = 488.61m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 382,
+                            BuildingId = 122,
+                            LeaseLength = 45,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 871.39m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 383,
+                            BuildingId = 122,
+                            LeaseLength = 8,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 189.67m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 384,
+                            BuildingId = 122,
+                            LeaseLength = 19,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 407.95m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 385,
+                            BuildingId = 122,
+                            LeaseLength = 31,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 626.23m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 386,
+                            BuildingId = 123,
+                            LeaseLength = 17,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 354.17m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 387,
+                            BuildingId = 123,
+                            LeaseLength = 28,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 572.45m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 388,
+                            BuildingId = 123,
+                            LeaseLength = 40,
+                            LotNumber = "3",
+                            NumberOfRooms = 4,
+                            Price = 790.73m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 389,
+                            BuildingId = 123,
+                            LeaseLength = 3,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 109.01m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 390,
+                            BuildingId = 123,
+                            LeaseLength = 15,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 327.29m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 391,
+                            BuildingId = 123,
+                            LeaseLength = 27,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 545.56m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 392,
+                            BuildingId = 123,
+                            LeaseLength = 39,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 763.84m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 393,
+                            BuildingId = 123,
+                            LeaseLength = 2,
+                            LotNumber = "8",
+                            NumberOfRooms = 5,
+                            Price = 982.12m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 394,
+                            BuildingId = 123,
+                            LeaseLength = 14,
+                            LotNumber = "9",
+                            NumberOfRooms = 8,
+                            Price = 300.4m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 395,
+                            BuildingId = 124,
+                            LeaseLength = 37,
+                            NumberOfRooms = 3,
+                            Price = 736.96m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 396,
+                            BuildingId = 126,
+                            LeaseLength = 30,
+                            NumberOfRooms = 2,
+                            Price = 602.52m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 397,
+                            BuildingId = 128,
+                            LeaseLength = 23,
+                            NumberOfRooms = 9,
+                            Price = 468.09m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 398,
+                            BuildingId = 129,
+                            LeaseLength = 44,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 850.87m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 399,
+                            BuildingId = 130,
+                            LeaseLength = 15,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 333.65m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 400,
+                            BuildingId = 130,
+                            LeaseLength = 27,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 551.93m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 401,
+                            BuildingId = 130,
+                            LeaseLength = 39,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 770.21m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 402,
+                            BuildingId = 130,
+                            LeaseLength = 2,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 988.49m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 403,
+                            BuildingId = 130,
+                            LeaseLength = 14,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 306.77m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 404,
+                            BuildingId = 130,
+                            LeaseLength = 26,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 525.04m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 405,
+                            BuildingId = 131,
+                            LeaseLength = 36,
+                            NumberOfRooms = 3,
+                            Price = 716.44m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 406,
+                            BuildingId = 132,
+                            LeaseLength = 8,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 199.22m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 407,
+                            BuildingId = 132,
+                            LeaseLength = 20,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 417.5m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 408,
+                            BuildingId = 132,
+                            LeaseLength = 32,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 635.77m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 409,
+                            BuildingId = 132,
+                            LeaseLength = 44,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 854.05m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 410,
+                            BuildingId = 132,
+                            LeaseLength = 7,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 172.33m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 411,
+                            BuildingId = 132,
+                            LeaseLength = 19,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 390.61m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 412,
+                            BuildingId = 133,
+                            LeaseLength = 29,
+                            NumberOfRooms = 1,
+                            Price = 582m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 413,
+                            BuildingId = 134,
+                            LeaseLength = 1,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 964.78m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 414,
+                            BuildingId = 134,
+                            LeaseLength = 13,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 283.06m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 415,
+                            BuildingId = 134,
+                            LeaseLength = 25,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 501.34m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 416,
+                            BuildingId = 134,
+                            LeaseLength = 36,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 719.62m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 417,
+                            BuildingId = 134,
+                            LeaseLength = 48,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 937.9m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 418,
+                            BuildingId = 134,
+                            LeaseLength = 11,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 256.17m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 419,
+                            BuildingId = 134,
+                            LeaseLength = 23,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 474.45m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 420,
+                            BuildingId = 135,
+                            LeaseLength = 22,
+                            NumberOfRooms = 9,
+                            Price = 447.57m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 421,
+                            BuildingId = 136,
+                            LeaseLength = 42,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 830.35m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 422,
+                            BuildingId = 136,
+                            LeaseLength = 5,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 148.63m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 423,
+                            BuildingId = 136,
+                            LeaseLength = 17,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 366.91m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 424,
+                            BuildingId = 136,
+                            LeaseLength = 29,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 585.18m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 425,
+                            BuildingId = 136,
+                            LeaseLength = 41,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 803.46m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 426,
+                            BuildingId = 136,
+                            LeaseLength = 4,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 121.74m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 427,
+                            BuildingId = 136,
+                            LeaseLength = 16,
+                            LotNumber = "7",
+                            NumberOfRooms = 8,
+                            Price = 340.02m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 428,
+                            BuildingId = 137,
+                            LeaseLength = 14,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 313.13m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 429,
+                            BuildingId = 137,
+                            LeaseLength = 26,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 531.41m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 430,
+                            BuildingId = 138,
+                            LeaseLength = 35,
+                            NumberOfRooms = 3,
+                            Price = 695.91m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 431,
+                            BuildingId = 139,
+                            LeaseLength = 7,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 178.7m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 432,
+                            BuildingId = 139,
+                            LeaseLength = 19,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 396.98m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 433,
+                            BuildingId = 139,
+                            LeaseLength = 31,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 615.25m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 434,
+                            BuildingId = 140,
+                            LeaseLength = 28,
+                            NumberOfRooms = 1,
+                            Price = 561.48m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 435,
+                            BuildingId = 141,
+                            LeaseLength = 49,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 944.26m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 436,
+                            BuildingId = 141,
+                            LeaseLength = 12,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 262.54m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 437,
+                            BuildingId = 141,
+                            LeaseLength = 23,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 480.82m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 438,
+                            BuildingId = 142,
+                            LeaseLength = 21,
+                            NumberOfRooms = 9,
+                            Price = 427.05m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 439,
+                            BuildingId = 143,
+                            LeaseLength = 41,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 809.83m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 440,
+                            BuildingId = 143,
+                            LeaseLength = 4,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 128.11m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 441,
+                            BuildingId = 143,
+                            LeaseLength = 16,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 346.38m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 442,
+                            BuildingId = 143,
+                            LeaseLength = 28,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 564.66m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 443,
+                            BuildingId = 144,
+                            LeaseLength = 13,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 292.61m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 444,
+                            BuildingId = 144,
+                            LeaseLength = 25,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 510.89m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 445,
+                            BuildingId = 144,
+                            LeaseLength = 37,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 729.17m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 446,
+                            BuildingId = 144,
+                            LeaseLength = 49,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 947.45m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 447,
+                            BuildingId = 144,
+                            LeaseLength = 12,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 265.72m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 448,
+                            BuildingId = 144,
+                            LeaseLength = 24,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 484m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 449,
+                            BuildingId = 144,
+                            LeaseLength = 35,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 702.28m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 450,
+                            BuildingId = 144,
+                            LeaseLength = 47,
+                            LotNumber = "8",
+                            NumberOfRooms = 5,
+                            Price = 920.56m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 451,
+                            BuildingId = 144,
+                            LeaseLength = 10,
+                            LotNumber = "9",
+                            NumberOfRooms = 7,
+                            Price = 238.84m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 452,
+                            BuildingId = 145,
+                            LeaseLength = 34,
+                            NumberOfRooms = 2,
+                            Price = 675.39m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 453,
+                            BuildingId = 147,
+                            LeaseLength = 27,
+                            NumberOfRooms = 1,
+                            Price = 540.96m,
+                            RentingLotType = 2,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 454,
+                            BuildingId = 149,
+                            LeaseLength = 19,
+                            NumberOfRooms = 9,
+                            Price = 406.52m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 455,
+                            BuildingId = 151,
+                            LeaseLength = 12,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 272.09m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 456,
+                            BuildingId = 151,
+                            LeaseLength = 24,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 490.37m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 457,
+                            BuildingId = 151,
+                            LeaseLength = 36,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 708.65m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 458,
+                            BuildingId = 151,
+                            LeaseLength = 48,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 926.93m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 459,
+                            BuildingId = 151,
+                            LeaseLength = 11,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 245.2m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 460,
+                            BuildingId = 151,
+                            LeaseLength = 22,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 463.48m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 461,
+                            BuildingId = 152,
+                            LeaseLength = 33,
+                            NumberOfRooms = 2,
+                            Price = 654.87m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 462,
+                            BuildingId = 153,
+                            LeaseLength = 5,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 137.66m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 463,
+                            BuildingId = 153,
+                            LeaseLength = 17,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 355.93m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 464,
+                            BuildingId = 153,
+                            LeaseLength = 29,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 574.21m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 465,
+                            BuildingId = 153,
+                            LeaseLength = 40,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 792.49m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 466,
+                            BuildingId = 153,
+                            LeaseLength = 3,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 110.77m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 467,
+                            BuildingId = 153,
+                            LeaseLength = 15,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 329.05m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 468,
+                            BuildingId = 154,
+                            LeaseLength = 26,
+                            NumberOfRooms = 1,
+                            Price = 520.44m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 469,
+                            BuildingId = 155,
+                            LeaseLength = 46,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 903.22m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 470,
+                            BuildingId = 155,
+                            LeaseLength = 9,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 221.5m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 471,
+                            BuildingId = 155,
+                            LeaseLength = 21,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 439.78m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 472,
+                            BuildingId = 155,
+                            LeaseLength = 33,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 658.06m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 473,
+                            BuildingId = 155,
+                            LeaseLength = 45,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 876.33m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 474,
+                            BuildingId = 155,
+                            LeaseLength = 8,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 194.61m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 475,
+                            BuildingId = 155,
+                            LeaseLength = 20,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 412.89m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 476,
+                            BuildingId = 156,
+                            LeaseLength = 18,
+                            NumberOfRooms = 8,
+                            Price = 386m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 477,
+                            BuildingId = 157,
+                            LeaseLength = 39,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 768.79m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 478,
+                            BuildingId = 157,
+                            LeaseLength = 2,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 987.07m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 479,
+                            BuildingId = 157,
+                            LeaseLength = 14,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 305.34m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 480,
+                            BuildingId = 157,
+                            LeaseLength = 26,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 523.62m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 481,
+                            BuildingId = 157,
+                            LeaseLength = 38,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 741.9m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 482,
+                            BuildingId = 157,
+                            LeaseLength = 1,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 960.18m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 483,
+                            BuildingId = 157,
+                            LeaseLength = 12,
+                            LotNumber = "7",
+                            NumberOfRooms = 7,
+                            Price = 278.46m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 484,
+                            BuildingId = 158,
+                            LeaseLength = 11,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 251.57m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 485,
+                            BuildingId = 158,
+                            LeaseLength = 23,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 469.85m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 486,
+                            BuildingId = 159,
+                            LeaseLength = 32,
+                            NumberOfRooms = 2,
+                            Price = 634.35m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 487,
+                            BuildingId = 160,
+                            LeaseLength = 4,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 117.14m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 488,
+                            BuildingId = 160,
+                            LeaseLength = 16,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 335.41m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 489,
+                            BuildingId = 160,
+                            LeaseLength = 27,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 553.69m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 490,
+                            BuildingId = 161,
+                            LeaseLength = 24,
+                            NumberOfRooms = 1,
+                            Price = 499.92m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 491,
+                            BuildingId = 162,
+                            LeaseLength = 45,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 882.7m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 492,
+                            BuildingId = 162,
+                            LeaseLength = 8,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 200.98m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 493,
+                            BuildingId = 162,
+                            LeaseLength = 20,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 419.26m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 494,
+                            BuildingId = 163,
+                            LeaseLength = 17,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 365.48m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 495,
+                            BuildingId = 163,
+                            LeaseLength = 29,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 583.76m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 496,
+                            BuildingId = 163,
+                            LeaseLength = 41,
+                            LotNumber = "3",
+                            NumberOfRooms = 4,
+                            Price = 802.04m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 497,
+                            BuildingId = 163,
+                            LeaseLength = 4,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 120.32m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 498,
+                            BuildingId = 163,
+                            LeaseLength = 16,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 338.6m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 499,
+                            BuildingId = 163,
+                            LeaseLength = 28,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 556.88m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 500,
+                            BuildingId = 163,
+                            LeaseLength = 39,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 775.15m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 501,
+                            BuildingId = 163,
+                            LeaseLength = 2,
+                            LotNumber = "8",
+                            NumberOfRooms = 6,
+                            Price = 993.43m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 502,
+                            BuildingId = 164,
+                            LeaseLength = 38,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 748.27m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 503,
+                            BuildingId = 164,
+                            LeaseLength = 1,
+                            LotNumber = "2",
+                            NumberOfRooms = 5,
+                            Price = 966.54m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 504,
+                            BuildingId = 164,
+                            LeaseLength = 13,
+                            LotNumber = "3",
+                            NumberOfRooms = 7,
+                            Price = 284.82m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 505,
+                            BuildingId = 164,
+                            LeaseLength = 25,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 503.1m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 506,
+                            BuildingId = 165,
+                            LeaseLength = 10,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 231.05m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 507,
+                            BuildingId = 165,
+                            LeaseLength = 22,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 449.33m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 508,
+                            BuildingId = 165,
+                            LeaseLength = 34,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 667.61m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 509,
+                            BuildingId = 165,
+                            LeaseLength = 45,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 885.88m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 510,
+                            BuildingId = 165,
+                            LeaseLength = 8,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 204.16m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 511,
+                            BuildingId = 165,
+                            LeaseLength = 20,
+                            LotNumber = "6",
+                            NumberOfRooms = 9,
+                            Price = 422.44m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 512,
+                            BuildingId = 165,
+                            LeaseLength = 32,
+                            LotNumber = "7",
+                            NumberOfRooms = 2,
+                            Price = 640.72m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 513,
+                            BuildingId = 165,
+                            LeaseLength = 44,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 859m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 514,
+                            BuildingId = 165,
+                            LeaseLength = 7,
+                            LotNumber = "9",
+                            NumberOfRooms = 6,
+                            Price = 177.28m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 515,
+                            BuildingId = 166,
+                            LeaseLength = 31,
+                            NumberOfRooms = 2,
+                            Price = 613.83m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 516,
+                            BuildingId = 167,
+                            LeaseLength = 3,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 996.61m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 517,
+                            BuildingId = 167,
+                            LeaseLength = 14,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 314.89m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 518,
+                            BuildingId = 167,
+                            LeaseLength = 26,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 533.17m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 519,
+                            BuildingId = 167,
+                            LeaseLength = 38,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 751.45m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 520,
+                            BuildingId = 167,
+                            LeaseLength = 1,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 969.73m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 521,
+                            BuildingId = 167,
+                            LeaseLength = 13,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 288.01m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 522,
+                            BuildingId = 167,
+                            LeaseLength = 25,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 506.28m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 523,
+                            BuildingId = 167,
+                            LeaseLength = 37,
+                            LotNumber = "8",
+                            NumberOfRooms = 3,
+                            Price = 724.56m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 524,
+                            BuildingId = 167,
+                            LeaseLength = 49,
+                            LotNumber = "9",
+                            NumberOfRooms = 5,
+                            Price = 942.84m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 525,
+                            BuildingId = 168,
+                            LeaseLength = 23,
+                            NumberOfRooms = 9,
+                            Price = 479.4m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 526,
+                            BuildingId = 170,
+                            LeaseLength = 16,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 344.96m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 527,
+                            BuildingId = 170,
+                            LeaseLength = 28,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 563.24m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 528,
+                            BuildingId = 170,
+                            LeaseLength = 40,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 781.52m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 529,
+                            BuildingId = 170,
+                            LeaseLength = 3,
+                            LotNumber = "4",
+                            NumberOfRooms = 6,
+                            Price = 999.8m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 530,
+                            BuildingId = 170,
+                            LeaseLength = 15,
+                            LotNumber = "5",
+                            NumberOfRooms = 8,
+                            Price = 318.08m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 531,
+                            BuildingId = 172,
+                            LeaseLength = 9,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 210.53m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 532,
+                            BuildingId = 172,
+                            LeaseLength = 21,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 428.81m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 533,
+                            BuildingId = 172,
+                            LeaseLength = 32,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 647.09m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 534,
+                            BuildingId = 172,
+                            LeaseLength = 44,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 865.36m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 535,
+                            BuildingId = 172,
+                            LeaseLength = 7,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 183.64m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 536,
+                            BuildingId = 173,
+                            LeaseLength = 30,
+                            NumberOfRooms = 2,
+                            Price = 593.31m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 537,
+                            BuildingId = 174,
+                            LeaseLength = 1,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 976.09m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 538,
+                            BuildingId = 174,
+                            LeaseLength = 13,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 294.37m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 539,
+                            BuildingId = 174,
+                            LeaseLength = 25,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 512.65m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 540,
+                            BuildingId = 174,
+                            LeaseLength = 37,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 730.93m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 541,
+                            BuildingId = 174,
+                            LeaseLength = 49,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 949.21m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 542,
+                            BuildingId = 174,
+                            LeaseLength = 12,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 267.49m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 543,
+                            BuildingId = 175,
+                            LeaseLength = 22,
+                            NumberOfRooms = 9,
+                            Price = 458.88m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 544,
+                            BuildingId = 176,
+                            LeaseLength = 43,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 841.66m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 545,
+                            BuildingId = 176,
+                            LeaseLength = 6,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 159.94m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 546,
+                            BuildingId = 176,
+                            LeaseLength = 18,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 378.22m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 547,
+                            BuildingId = 176,
+                            LeaseLength = 30,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 596.49m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 548,
+                            BuildingId = 176,
+                            LeaseLength = 42,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 814.77m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 549,
+                            BuildingId = 176,
+                            LeaseLength = 4,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 133.05m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 550,
+                            BuildingId = 177,
+                            LeaseLength = 15,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 324.44m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 551,
+                            BuildingId = 178,
+                            LeaseLength = 36,
+                            NumberOfRooms = 3,
+                            Price = 707.23m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 552,
+                            BuildingId = 179,
+                            LeaseLength = 8,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 190.01m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 553,
+                            BuildingId = 179,
+                            LeaseLength = 19,
+                            LotNumber = "2",
+                            NumberOfRooms = 9,
+                            Price = 408.29m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 554,
+                            BuildingId = 180,
+                            LeaseLength = 28,
+                            NumberOfRooms = 1,
+                            Price = 572.79m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 555,
+                            BuildingId = 181,
+                            LeaseLength = 49,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 955.57m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 556,
+                            BuildingId = 181,
+                            LeaseLength = 12,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 273.85m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 557,
+                            BuildingId = 182,
+                            LeaseLength = 21,
+                            NumberOfRooms = 9,
+                            Price = 438.36m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 558,
+                            BuildingId = 183,
+                            LeaseLength = 42,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 821.14m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 559,
+                            BuildingId = 183,
+                            LeaseLength = 5,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 139.42m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 560,
+                            BuildingId = 183,
+                            LeaseLength = 17,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 357.7m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 561,
+                            BuildingId = 184,
+                            LeaseLength = 14,
+                            LotNumber = "1",
+                            NumberOfRooms = 8,
+                            Price = 303.92m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 562,
+                            BuildingId = 184,
+                            LeaseLength = 26,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 522.2m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 563,
+                            BuildingId = 184,
+                            LeaseLength = 38,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 740.48m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 564,
+                            BuildingId = 184,
+                            LeaseLength = 49,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 958.76m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 565,
+                            BuildingId = 184,
+                            LeaseLength = 12,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 277.04m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 566,
+                            BuildingId = 184,
+                            LeaseLength = 24,
+                            LotNumber = "6",
+                            NumberOfRooms = 1,
+                            Price = 495.31m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 567,
+                            BuildingId = 184,
+                            LeaseLength = 36,
+                            LotNumber = "7",
+                            NumberOfRooms = 3,
+                            Price = 713.59m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 568,
+                            BuildingId = 184,
+                            LeaseLength = 48,
+                            LotNumber = "8",
+                            NumberOfRooms = 5,
+                            Price = 931.87m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 569,
+                            BuildingId = 185,
+                            LeaseLength = 35,
+                            NumberOfRooms = 2,
+                            Price = 686.7m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 570,
+                            BuildingId = 186,
+                            LeaseLength = 6,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 169.49m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 571,
+                            BuildingId = 186,
+                            LeaseLength = 18,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 387.77m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 572,
+                            BuildingId = 186,
+                            LeaseLength = 30,
+                            LotNumber = "3",
+                            NumberOfRooms = 2,
+                            Price = 606.04m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 573,
+                            BuildingId = 186,
+                            LeaseLength = 42,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 824.32m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 574,
+                            BuildingId = 186,
+                            LeaseLength = 5,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 142.6m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 575,
+                            BuildingId = 186,
+                            LeaseLength = 17,
+                            LotNumber = "6",
+                            NumberOfRooms = 8,
+                            Price = 360.88m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 576,
+                            BuildingId = 186,
+                            LeaseLength = 29,
+                            LotNumber = "7",
+                            NumberOfRooms = 1,
+                            Price = 579.16m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 577,
+                            BuildingId = 186,
+                            LeaseLength = 41,
+                            LotNumber = "8",
+                            NumberOfRooms = 4,
+                            Price = 797.44m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 578,
+                            BuildingId = 187,
+                            LeaseLength = 27,
+                            NumberOfRooms = 1,
+                            Price = 552.27m,
+                            RentingLotType = 2,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 579,
+                            BuildingId = 188,
+                            LeaseLength = 48,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 935.05m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 580,
+                            BuildingId = 188,
+                            LeaseLength = 11,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 253.33m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 581,
+                            BuildingId = 188,
+                            LeaseLength = 23,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 471.61m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 582,
+                            BuildingId = 188,
+                            LeaseLength = 35,
+                            LotNumber = "4",
+                            NumberOfRooms = 3,
+                            Price = 689.89m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 583,
+                            BuildingId = 188,
+                            LeaseLength = 47,
+                            LotNumber = "5",
+                            NumberOfRooms = 5,
+                            Price = 908.17m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 584,
+                            BuildingId = 188,
+                            LeaseLength = 10,
+                            LotNumber = "6",
+                            NumberOfRooms = 7,
+                            Price = 226.44m,
+                            RentingLotType = 1,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 585,
+                            BuildingId = 188,
+                            LeaseLength = 21,
+                            LotNumber = "7",
+                            NumberOfRooms = 9,
+                            Price = 444.72m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 586,
+                            BuildingId = 188,
+                            LeaseLength = 33,
+                            LotNumber = "8",
+                            NumberOfRooms = 2,
+                            Price = 663m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 587,
+                            BuildingId = 188,
+                            LeaseLength = 45,
+                            LotNumber = "9",
+                            NumberOfRooms = 4,
+                            Price = 881.28m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 588,
+                            BuildingId = 189,
+                            LeaseLength = 20,
+                            NumberOfRooms = 9,
+                            Price = 417.84m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 589,
+                            BuildingId = 190,
+                            LeaseLength = 41,
+                            LotNumber = "1",
+                            NumberOfRooms = 4,
+                            Price = 800.62m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 590,
+                            BuildingId = 190,
+                            LeaseLength = 4,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 118.9m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 591,
+                            BuildingId = 190,
+                            LeaseLength = 16,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 337.18m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 592,
+                            BuildingId = 190,
+                            LeaseLength = 27,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 555.45m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 593,
+                            BuildingId = 190,
+                            LeaseLength = 39,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 773.73m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 594,
+                            BuildingId = 190,
+                            LeaseLength = 2,
+                            LotNumber = "6",
+                            NumberOfRooms = 6,
+                            Price = 992.01m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 595,
+                            BuildingId = 190,
+                            LeaseLength = 14,
+                            LotNumber = "7",
+                            NumberOfRooms = 8,
+                            Price = 310.29m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 596,
+                            BuildingId = 190,
+                            LeaseLength = 26,
+                            LotNumber = "8",
+                            NumberOfRooms = 1,
+                            Price = 528.57m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 597,
+                            BuildingId = 190,
+                            LeaseLength = 38,
+                            LotNumber = "9",
+                            NumberOfRooms = 3,
+                            Price = 746.84m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 598,
+                            BuildingId = 191,
+                            LeaseLength = 13,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 283.4m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 599,
+                            BuildingId = 191,
+                            LeaseLength = 25,
+                            LotNumber = "2",
+                            NumberOfRooms = 1,
+                            Price = 501.68m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 600,
+                            BuildingId = 191,
+                            LeaseLength = 36,
+                            LotNumber = "3",
+                            NumberOfRooms = 3,
+                            Price = 719.96m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 601,
+                            BuildingId = 191,
+                            LeaseLength = 48,
+                            LotNumber = "4",
+                            NumberOfRooms = 5,
+                            Price = 938.24m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 602,
+                            BuildingId = 191,
+                            LeaseLength = 11,
+                            LotNumber = "5",
+                            NumberOfRooms = 7,
+                            Price = 256.51m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 603,
+                            BuildingId = 193,
+                            LeaseLength = 5,
+                            LotNumber = "1",
+                            NumberOfRooms = 6,
+                            Price = 148.97m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 604,
+                            BuildingId = 193,
+                            LeaseLength = 17,
+                            LotNumber = "2",
+                            NumberOfRooms = 8,
+                            Price = 367.25m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 605,
+                            BuildingId = 193,
+                            LeaseLength = 29,
+                            LotNumber = "3",
+                            NumberOfRooms = 1,
+                            Price = 585.52m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 606,
+                            BuildingId = 193,
+                            LeaseLength = 41,
+                            LotNumber = "4",
+                            NumberOfRooms = 4,
+                            Price = 803.8m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 607,
+                            BuildingId = 193,
+                            LeaseLength = 4,
+                            LotNumber = "5",
+                            NumberOfRooms = 6,
+                            Price = 122.08m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 608,
+                            BuildingId = 195,
+                            LeaseLength = 47,
+                            LotNumber = "1",
+                            NumberOfRooms = 5,
+                            Price = 914.53m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 609,
+                            BuildingId = 195,
+                            LeaseLength = 10,
+                            LotNumber = "2",
+                            NumberOfRooms = 7,
+                            Price = 232.81m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 610,
+                            BuildingId = 195,
+                            LeaseLength = 22,
+                            LotNumber = "3",
+                            NumberOfRooms = 9,
+                            Price = 451.09m,
+                            RentingLotType = 0,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 611,
+                            BuildingId = 195,
+                            LeaseLength = 34,
+                            LotNumber = "4",
+                            NumberOfRooms = 2,
+                            Price = 669.37m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 612,
+                            BuildingId = 195,
+                            LeaseLength = 46,
+                            LotNumber = "5",
+                            NumberOfRooms = 4,
+                            Price = 887.65m,
+                            RentingLotType = 4,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 613,
+                            BuildingId = 196,
+                            LeaseLength = 19,
+                            NumberOfRooms = 9,
+                            Price = 397.32m,
+                            RentingLotType = 2,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 614,
+                            BuildingId = 197,
+                            LeaseLength = 40,
+                            LotNumber = "1",
+                            NumberOfRooms = 3,
+                            Price = 780.1m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 615,
+                            BuildingId = 197,
+                            LeaseLength = 3,
+                            LotNumber = "2",
+                            NumberOfRooms = 6,
+                            Price = 998.38m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 616,
+                            BuildingId = 197,
+                            LeaseLength = 14,
+                            LotNumber = "3",
+                            NumberOfRooms = 8,
+                            Price = 316.65m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 617,
+                            BuildingId = 197,
+                            LeaseLength = 26,
+                            LotNumber = "4",
+                            NumberOfRooms = 1,
+                            Price = 534.93m,
+                            RentingLotType = 0,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 618,
+                            BuildingId = 197,
+                            LeaseLength = 38,
+                            LotNumber = "5",
+                            NumberOfRooms = 3,
+                            Price = 753.21m,
+                            RentingLotType = 4,
+                            Terms = 0
+                        },
+                        new
+                        {
+                            Id = 619,
+                            BuildingId = 197,
+                            LeaseLength = 1,
+                            LotNumber = "6",
+                            NumberOfRooms = 5,
+                            Price = 971.49m,
+                            RentingLotType = 0,
+                            Terms = 1
+                        },
+                        new
+                        {
+                            Id = 620,
+                            BuildingId = 198,
+                            LeaseLength = 12,
+                            LotNumber = "1",
+                            NumberOfRooms = 7,
+                            Price = 262.88m,
+                            RentingLotType = 1,
+                            Terms = 2
+                        },
+                        new
+                        {
+                            Id = 621,
+                            BuildingId = 199,
+                            LeaseLength = 32,
+                            NumberOfRooms = 2,
+                            Price = 645.66m,
+                            RentingLotType = 3,
+                            Terms = 0
+                        });
                 });
 
             modelBuilder.Entity("MaisonReve.Database.Models.RentingLot", b =>
                 {
                     b.HasOne("MaisonReve.Database.Models.Building", "Building")
-                        .WithMany()
+                        .WithMany("Rentinglots")
                         .HasForeignKey("BuildingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
